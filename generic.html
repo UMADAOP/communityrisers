@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>Children's Day 2018</title>
-
     <style>
+
         .container {
             padding-left: 20px;
             padding-right: 20px;
@@ -37,31 +37,64 @@
             box-shadow: 0 0 15px rgba(0,0,0,0.5);
             margin: 10px 10px;
             -webkit-border-radius: 6px;
-            -moz-border-radius:6px;
+            -moz-border-radius: 6px;
             border-radius: 6px;
+        }
+
+        #particles-js {
+            background: #3C67C1;
+            height: 100%;
+            width: 100%;
+        }
+
+        .jar {
+            position: relative;
+        }
+
+        #star1 {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star1.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 15px bottom 20px;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        #star2 {
+            position: absolute;
+            top: 10px;
+            right: 16px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star2.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 1px top ;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
         }
     </style>
 
-
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
     <!-- Wrapper -->
     <div id="wrapper">
-
         <!-- Header -->
         <header id="header">
             <div class="inner">
-
                 <!-- Logo -->
                 <a href="index.html" class="logo">
                     <span class="symbol"><img src="app_images/logo.jpg" alt="" /></span><span class="title">Community Children's Network</span>
                 </a>
-
 
                 <!-- Nav -->
                 <nav id="menu">
@@ -69,10 +102,8 @@
                         <li><a href="#menu">Menu</a></li>
                     </ul>
                 </nav>
-
             </div>
         </header>
-
         <!-- Menu -->
         <nav id="menu">
             <h2>Menu</h2>
@@ -80,27 +111,24 @@
                 <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1>Children's Day - 2018</h1>
-                <br />
-                <!--<span class="image main"><img src="images/pic04.jpg" alt="" height="450" /></span>
-             <p>This is where the photo uploads will go!</p>-->
-                <div id="particles-js"></div>
-
-            </div>
-			<p>Seven things every child needs to hear: I love you, I’m proud of you, I’m sorry, I forgive you, I’m listening. <br /> This is your responsibility. You have what it takes to succeed. Sherrie Campbell, PhD</p>
-			<p>Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
-		</div>
-
+                <h1 class="lead">Children's Day 2018</h1>
+                <blockquote class="lead" id="quote2">Seven things every child needs to hear: I love you, I’m proud of you, I’m sorry, I forgive you, I’m listening. This is your responsibility. You have what it takes to succeed. <footer>Sherrie Campbell, PhD</footer></blockquote>
+                <div class="jar">
+                    <div id="particles-js"></div>
+                    <div id="star1"></div>
+                    <div id="star2"></div>
+                </div>
+                <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
+            </div>  <!-- end inner div-->
+        </div>
         <!-- Uploads -->
         <div class="container">
             <form enctype="multipart/form-data" id="upload_file" action="/ajax.php">
                 <div class="form-group">
                     <input type="file" name="file" onchange="add_file();">
-
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
@@ -147,16 +175,14 @@
                 </ul>
             </div>
         </footer>
-
     </div>
-
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
     <script type="text/javascript" src="js/particles.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-
 </body>
 </html>
