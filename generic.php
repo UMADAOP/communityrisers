@@ -125,27 +125,14 @@
             </div>  <!-- end inner div-->
         </div>
         <!-- Uploads -->
-        <?php
-            while ($row = mysqli_fetch_array($result)) {
-            echo "<div id='img_div'>";
-                echo "<img src='images/".$row[' image']."'>";
-                echo "<p>".$row['image_text']."</p>";
-                echo "</div>";
-            }
-        ?>
-
-
         <div class="container">
-            <form method="POST" action="generic.html" enctype="multipart/form-data" id="upload_file">
-                <input type="hidden" name="size" value="1000000" />
-                <div>
-                    <input type="file" name="image" />
+            <form enctype="multipart/form-data" id="upload_file" action="ajax.php">
+                <div class="form-group">
+                    <input type="file" name="file" onchange="add_file();">
                 </div>
-                <div>
-                    <textarea id="text" cols="40" rows="4" name="image_text" placeholder="Share some joy"></textarea>
-                </div>
-                <div>
-                    <button type="submit" name="upload"></button>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <input type="text" class="form-control" id="message" name="message" placeholder="Enter message" />
                 </div>
                 <div class="show"></div>
                 <hr>
@@ -189,41 +176,6 @@
             </div>
         </footer>
     </div>
-    <!-- php -->
-    <?php
-
-    $db = new POD("mysql:host=localhost;dbname=wvfdavanhx","root","");
-    $db = new mysqli("localhost", "root", "", "file");
-
-    $msg = "";
-
-
-    if (isset($_POST['upload'])) {
-
-    $image = $_FILES['image']['name'];
-
-    $image_text = mysqli_real_escape_string($db, $_POST['image_text']);
-
-
-    $target = "images/".basename($image);
-
-    $sql = "INSERT INTO images (image, image_text) VALUES ('$image', '$image_text')";
-
-    mysqli_query($db, $sql);
-
-    if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
-    $msg = "Image uploaded successfully";
-    }else{
-    $msg = "Failed to upload image";
-    }
-    }
-    $result = mysqli_query($db, "SELECT * FROM images");
-
- ?>
-
-
-
-
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
