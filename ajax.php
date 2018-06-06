@@ -1,53 +1,52 @@
 <?php
  
-$valid_extensions = array('jpeg', 'jpg', 'png', 'gif', 'bmp' , 'pdf' , 'doc' , 'ppt'); // valid extensions
-$path = 'images/'; // upload directory
+//DB details
  
-if(!empty($_POST['message']) || $_FILES['image'])
-{
-$img = $_FILES['image']['name'];
-$tmp = $_FILES['image']['tmp_name'];
- 
-// get uploaded file's extension
-$ext = strtolower(pathinfo($img, PATHINFO_EXTENSION));
- 
-// can upload same image using rand function
-$final_image = rand(1000,1000000).$img;
- 
-// check's valid format
-if(in_array($ext, $valid_extensions)) 
-{ 
-$path = $path.strtolower($final_image); 
- 
-if(move_uploaded_file($tmp,$path)) 
-{
-echo "<img src='$path' />";
-$name = $_POST['message'];
- 
-//include database configuration file
-include_once 'db.php';
- 
-//insert form data in the database
-$insert = $db->query("INSERT file (message,file_name) VALUES ('".$message."','".$path."')");
- 
-//echo $insert?'ok':'err';
-}
-} 
-else 
-{
-echo 'invalid';
-}
+$db = new POD("mysql:host=localhost;dbname=wvfdavanhx","wvfdavanhx","A8vBpYb4fY");
+//$db = new mysqli("localhost", "wvfdavanhx", "", "wvfdavanhx");
 
-if($errorimg > 0){
- 
-   die('<div class="alert alert-danger" role="alert"> An error occurred while uploading the file </div>');
- 
-}
-if($myFile['size'] > 500000){
- 
-   die('<div class="alert alert-danger" role="alert"> File is too big </div>');
- 
-}
+function add_file() {
+	GLOBAL $db;
+	if(isset($_FILES['file']['name']) && isset($_GET['my_form']) &&
+	 $_GET['my_form'] == 'ajax_form'){
+		$img_name      = $_FILES['file']['name'];
+		$temp_name     = $_FILES['file']['temp_name'];
+		$img_text      = mysql_real_escape_string($db, $_POST['image_text']);
+		$store         = '../images/';
+		$extension     = array('jpg','jpeg','png');
+		$get_extension = explode(".", $img_name);
+		$end           = end($get_extension);
+		if(!in_array($end, $extension)){
+			echo "<div class='error'>Invalid image extension. We cannot process ".$end." files. </di>";
+		}else{
+			move_uploaded_file($tmp_name, "$store/$img_name");
+			$Query = $db->prepare("INSERT INTO file(file_name, file_text) VALUES (?)");
+			$Query->execute(array($img_name, $img_text));
+			if($Query){
+				echo "Thank you for sharing the love!";
+			}
+		}
+
+	 }
 
 }
+add_file();
+function show_images(){
+	GLOBAL $db;
+	if(isset($_GET['my_form']) && $_GET['my_form'] == 'show'){
+		$Query = $db->prepare("SELECT * FROM file ORDER BY id DESC");
+		$Query->execute();
+		if($Query->rowCount() == 0){
+			echo "<div class='error'>Sorry, we don't have any posts yet!</div>"
+				;
+		}else{
+		while($r = $Query->fetch(POD::FETCH_OBJ));
+		echo "<div><img src='images/$r->file_name' class='img-res'><p>"$r->file_text"</p></div>";
+		/* echo "<p>"$r->file_text"</p>" */
+		endwhile;
+		}
+	}
+}
+ show_images(); 
+ 
 ?>

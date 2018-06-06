@@ -122,7 +122,7 @@
                     <div id="star2"></div>
                 </div>
 				<br />
-				<dl id="childrenshistory">
+				<dl class="lead" id="childrenshistory">
 					<dt style="background-color:rgba(0,128,128,0.6);">The History</dt>
 					<dd>Children's Day observations in the United States predate both Mother's and Father's Day. The day to celebrate children dates from the 1860s and earlier.</dd>
 					<dd>The Methodist Episcopal Church at the Methodist Conference of 1868 recommended that the second Sunday in June be observed annually as Children’s Day.</dd>
@@ -130,9 +130,10 @@
 					<dd>The Commonwealth of Massachusetts issues an annual proclamation for the second Sunday in June.</dd>
 					<dd>Numerous churches and denominations currently observethe second Sunday in June including the African Methodist Episcopal Church, African Methodist Episcopal Zion Church, Christian Methodist Episcopal Church, and the Church of the Nazarene.</dd>
 				</dl>
-				<br / ><i class="fas fa-child" ></i><br />
+				
                 <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
-            </div>  <!-- end inner div-->
+				<h3 class="lead" id="posts" style="background-color:rgba(0,128,128,0.6);">Posts</h3>				
+			</div>  <!-- end inner div-->
         </div>
 		
 		
@@ -140,7 +141,7 @@
 		
 		
 		
-		<!--Uploads- example start-->
+		<!--Uploads- example start
 		<hr> 
  
 <form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
@@ -156,7 +157,7 @@
  
 <div id="err"></div>
 <hr>
-		<!--Uploads - example end-->
+		Uploads - example end-->
 		
 		
 		
@@ -170,7 +171,7 @@
 		
 		
 		
-        <!-- Uploads- original 
+        <!-- Uploads- original -->
         <div class="container">
             <form enctype="multipart/form-data" id="upload_form" method="POST" >
                 <div class="form-group">
@@ -185,7 +186,7 @@
                 <hr>
             </form>
             <div class="show-images"></div>
-        </div> < close container -->
+        </div> <!--< close container -->
 		
 		
 		

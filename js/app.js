@@ -41,7 +41,7 @@ $(document).ready(function (e) {
      // view uploaded file.
      $("#preview").html(data).fadeIn();
     // $("#form")[0].reset(); 
-	//show_images();
+	 show_images();
     }
       },
      error: function(e) 
@@ -63,7 +63,7 @@ $(document).ready(function (e) {
 
 
 
- /*
+ 
  function add_file() {
     $.ajax({
         type: 'POST',
@@ -77,9 +77,9 @@ $(document).ready(function (e) {
         }
     })
 }
-*/
 
-/*
+
+
 function show_images() {
     $.ajax({
         type: 'POST',
@@ -89,7 +89,9 @@ function show_images() {
         }
     })
 }
- show_images(); */
+ show_images(); 
+ 
+
 
 
 /*******************************************************
