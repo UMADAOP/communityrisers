@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 28px;
 }
 
-.first-heading, .lead, #quote2 {
+.first-heading, .lead, #quote2, #childrenshistory, #terms, #policyheading, #policy {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -30,6 +30,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #intro {
     padding-top: 3em;
 }
+
+
+
+
 
 
 /* acc */

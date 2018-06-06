@@ -88,15 +88,16 @@
             <div class="inner">
                 <section>
                     <!--<h2>Get in touch</h2>-->
-                    <form method="post" action="#">
+					<form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
                         </div>
                         <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" />
+                            <input type="email" name="_replyto" id="email" placeholder="Email" />
                         </div>
                         <div class="field">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <textarea name="note" id="note" placeholder="Message"></textarea>
+							<input class="display-none" style="display:none" type="text" name="_gotcha">
                         </div>
                         <ul class="actions">
                             <li><input type="submit" value="Send" class="special" /></li>

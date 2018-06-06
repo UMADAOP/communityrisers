@@ -114,13 +114,23 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1 class="lead">Children's Day 2018</h1>
+                <h1 class="lead" id="heading" style="background-color:rgba(0,128,128,0.6);">Children's Day 2018</h1>
                 <blockquote class="lead" id="quote2">Seven things every child needs to hear: I love you, I’m proud of you, I’m sorry, I forgive you, I’m listening. This is your responsibility. You have what it takes to succeed. <footer>Sherrie Campbell, PhD</footer></blockquote>
                 <div class="jar">
                     <div id="particles-js"></div>
                     <div id="star1"></div>
                     <div id="star2"></div>
                 </div>
+				<br />
+				<dl id="childrenshistory">
+					<dt style="background-color:rgba(0,128,128,0.6);">The History</dt>
+					<dd>Children's Day observations in the United States predate both Mother's and Father's Day. The day to celebrate children dates from the 1860s and earlier.</dd>
+					<dd>The Methodist Episcopal Church at the Methodist Conference of 1868 recommended that the second Sunday in June be observed annually as Children’s Day.</dd>
+					<dd>The General Assembly of the Presbyterian Church in 1883 designated the second Sabbath in June as Children’s Day.</dd>
+					<dd>The Commonwealth of Massachusetts issues an annual proclamation for the second Sunday in June.</dd>
+					<dd>Numerous churches and denominations currently observethe second Sunday in June including the African Methodist Episcopal Church, African Methodist Episcopal Zion Church, Christian Methodist Episcopal Church, and the Church of the Nazarene.</dd>
+				</dl>
+				<br / ><br />
                 <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
             </div>  <!-- end inner div-->
         </div>
@@ -193,15 +203,16 @@
             <div class="inner">
                 <section>
                     <!--<h2>Get in touch</h2>-->
-                    <form method="post" action="#">
+                    <form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
                         </div>
                         <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" />
+                            <input type="email" name="_replyto" id="email" placeholder="Email" />
                         </div>
                         <div class="field">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <textarea name="note" id="note" placeholder="Message"></textarea>
+							<input class="display-none" style="display:none" type="text" name="_gotcha">
                         </div>
                         <ul class="actions">
                             <li><input type="submit" value="Send" class="special" /></li>

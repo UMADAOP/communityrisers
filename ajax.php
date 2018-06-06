@@ -28,7 +28,7 @@ $name = $_POST['message'];
 include_once 'db.php';
  
 //insert form data in the database
-$insert = $db->query("INSERT uploading (message,file_name) VALUES ('".$message."','".$path."')");
+$insert = $db->query("INSERT file (message,file_name) VALUES ('".$message."','".$path."')");
  
 //echo $insert?'ok':'err';
 }
