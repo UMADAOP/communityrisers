@@ -13,7 +13,8 @@ function popupFunction() {
                    Uploads
 *******************************************************/
 
-function add_file() {
+
+ function add_file() {
     $.ajax({
         type: 'POST',
         url: 'ajax.php?my_form=ajax_form',
@@ -26,6 +27,7 @@ function add_file() {
         }
     })
 }
+
 
 
 function show_images() {

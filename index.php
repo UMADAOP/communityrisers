@@ -14,7 +14,7 @@
             <div class="inner">
 
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <span class="symbol"><img src="app_images/logo.jpg" alt="" /></span><span class="title">Community Children's Network</span>
                 </a>
 
@@ -32,7 +32,7 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
             </ul>
         </nav>
 
@@ -50,7 +50,7 @@
                         <span class="image">
                             <img src="app_images/pic01.jpg" alt="" />
                         </span>
-                        <a href="generic.html">
+                        <a href="childrensday.php">
                             <h2>Children's Day 2018</h2>
                             <div class="content">
                                 <p>June 10th <br /> Send the Love</p>
@@ -61,7 +61,7 @@
                         <span class="image">
                             <img src="app_images/pic02.jpg" alt="" />
                         </span>
-                        <a href="index.html">
+                        <a href="index.php">
                             <h2>3.0 Club</h2>
                             <div class="content">
                                 <p>Coming Soon</p>
@@ -72,7 +72,7 @@
                         <span class="image">
                             <img src="images/pic03.jpg" alt="" />
                         </span>
-                        <a href="generic.html">
+                        <a href="childrensday.php">
                             <h2>Spoken Word Fest</h2>
                             <div class="content">
                                 <p>Brief Description, maybe location and sponsors info?</p>
@@ -114,8 +114,8 @@
                 <ul class="copyright">
                     <li>&copy; Cleveland UMADAOP. All rights reserved</li>
                     <li>Designed with Love: <a href="http://alexischandler.com">A-CHAN</a></li>
-                    <li><a href="policy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="policy.php">Privacy Policy</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                 </ul>
             </div>
         </footer>

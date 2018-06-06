@@ -15,7 +15,7 @@
             <div class="inner">
 
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <span class="symbol"><img src="images/logo.jpg" alt="" /></span><span class="title">Hough Neighbors</span>
                 </a>
 
@@ -33,7 +33,7 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
             </ul>
         </nav>
 
@@ -92,8 +92,8 @@
                 <ul class="copyright">
                     <li>&copy; Cleveland UMADAOP. All rights reserved</li>
                     <li>Designed with Love: <a href="http://alexischandler.com">A-CHAN</a></li>
-                    <li><a href="policy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="policy.php">Privacy Policy</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                 </ul>
             </div>
         </footer>

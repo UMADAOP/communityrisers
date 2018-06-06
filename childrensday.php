@@ -92,7 +92,7 @@
         <header id="header">
             <div class="inner">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <span class="symbol"><img src="app_images/logo.jpg" alt="" /></span><span class="title">Community Children's Network</span>
                 </a>
 
@@ -108,7 +108,7 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
             </ul>
         </nav>
         <!-- Main -->
@@ -126,14 +126,15 @@
         </div>
         <!-- Uploads -->
         <div class="container">
-            <form enctype="multipart/form-data" id="upload_file" action="ajax.php">
+            <form enctype="multipart/form-data" id="upload_form" >
                 <div class="form-group">
-                    <input type="file" name="file" onchange="add_file();">
+                    <input type="file" accept="image/*" name="file" >
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
                     <input type="text" class="form-control" id="message" name="message" placeholder="Enter message" />
                 </div>
+                <input class="btn btn-success" type="submit" value="Upload" onclick="add_file();">
                 <div class="show"></div>
                 <hr>
             </form>
@@ -170,8 +171,8 @@
                 <ul class="copyright">
                     <li>&copy; Cleveland UMADAOP. All rights reserved</li>
                     <li>Designed with Love: <a href="http://alexischandler.com">A-CHAN</a></li>
-                    <li><a href="policy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="policy.php">Privacy Policy</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                 </ul>
             </div>
         </footer>
