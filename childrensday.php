@@ -16,7 +16,7 @@
 
         input[type="file"] {
             border: 1px solid #222;
-            padding: 20px 0px;
+            padding: 20px 20px;
             -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
