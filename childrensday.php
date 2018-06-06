@@ -126,9 +126,9 @@
         </div>
         <!-- Uploads -->
         <div class="container">
-            <form enctype="multipart/form-data" id="upload_form" >
+            <form enctype="multipart/form-data" id="upload_form" method="POST" >
                 <div class="form-group">
-                    <input type="file" accept="image/*" name="file" >
+                    <input type="file" name="file" >
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>

@@ -12,7 +12,7 @@ function add_file() {
 		$img_name      = $_FILES['file']['name'];
 		$temp_name     = $_FILES['file']['temp_name'];
 		$img_text      = mysql_real_escape_string($db, $_POST['image_text']);
-		$store         = 'images/';
+		$store         = '../images/';
 		$extension     = array('jpg','jpeg','png');
 		$get_extension = explode(".", $img_name);
 		$end           = end($get_extension);
