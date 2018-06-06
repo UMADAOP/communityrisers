@@ -16,7 +16,7 @@
 
         input[type="file"] {
             border: 1px solid #222;
-            padding: 20px 20px;
+            padding: 20px 0px;
             -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
@@ -149,13 +149,11 @@
 <label for="message">Message</label>
 <input type="text" class="form-control" id="message" name="message" placeholder="Enter message" required />
 </div>
-<div style="text-align:center;margin:auto;">
 <input id="uploadImage" type="file" accept="image/*" name="image" />
-</div>
 <br>
 <input class="btn btn-success" type="submit" value="Upload">
 <!--thumbnail start-->
-<div class="row">
+<div id="thumbrow" class="row">
   <div class="col-xs-6 col-md-3">
     <a class="thumbnail" style="text-align:center;margin:auto;">
       <div id="preview"></div>
