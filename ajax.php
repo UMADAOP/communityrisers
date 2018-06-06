@@ -49,8 +49,20 @@ if($myFile['size'] > 500000){
  
 }
 
-$image = $_FILES["image"]["name"]; 
-$img = "images/".$image;
-echo'<img src="'.$img.'">';
+
+
+
+//$sql_query = "SELECT file_name, message FROM file WHERE file_name=$email_id AND password=$password";
+
+
+
+
+
+
+
+
+
+
 }
+
 ?>

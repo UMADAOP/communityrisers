@@ -151,8 +151,18 @@
 </div>
  
 <input id="uploadImage" type="file" accept="image/*" name="image" />
-<div id="preview"></div><br>
+<br>
 <input class="btn btn-success" type="submit" value="Upload">
+<!--thumbnail start-->
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a class="thumbnail">
+      <div id="preview"></div>
+    </a>
+  </div>
+  ...
+</div>
+<!--thumbnail end-->
 </form>
  
 <div id="err"></div>
