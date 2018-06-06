@@ -141,7 +141,7 @@
 		
 		
 		
-		<!--Uploads- example start
+		<!--Uploads- example start-->
 		<hr> 
  
 <form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
@@ -157,7 +157,7 @@
  
 <div id="err"></div>
 <hr>
-		Uploads - example end-->
+		<!--Uploads - example end-->
 		
 		
 		
@@ -171,7 +171,7 @@
 		
 		
 		
-        <!-- Uploads- original -->
+        <!-- Uploads- original 
         <div class="container">
             <form enctype="multipart/form-data" id="upload_form" method="POST" >
                 <div class="form-group">
@@ -186,7 +186,7 @@
                 <hr>
             </form>
             <div class="show-images"></div>
-        </div> <!--< close container -->
+        </div> < close container -->
 		
 		
 		
