@@ -13,7 +13,7 @@
 /*******************************************************
                    Uploads
 *******************************************************/
-
+/*
 $(document).ready(function (e) {
  $("#form").on('submit',(function(e) {
   e.preventDefault();
@@ -51,7 +51,7 @@ $(document).ready(function (e) {
     });
  }));
 });
-
+*/
 
 
 
@@ -78,8 +78,6 @@ $(document).ready(function (e) {
     })
 }
 
-
-
 function show_images() {
     $.ajax({
         type: 'POST',
@@ -90,7 +88,18 @@ function show_images() {
     })
 }
  show_images(); 
- 
+
+/* function show_images() {
+    $.ajax({
+        type: 'POST',
+        url: 'ajax.php?my_form=show',
+        success: function (data) {
+            $(".show-images").html(data);
+        }
+    })
+}
+ show_images(); 
+ */
 
 
 

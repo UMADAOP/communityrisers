@@ -11,7 +11,7 @@ function add_file() {
 	 $_GET['my_form'] == 'ajax_form'){
 		$img_name      = $_FILES['file']['name'];
 		$temp_name     = $_FILES['file']['temp_name'];
-		$img_text      = mysql_real_escape_string($db, $_POST['image_text']);
+		$img_text      = mysql_real_escape_string($db, $_POST['message']);
 		$store         = '../images/';
 		$extension     = array('jpg','jpeg','png');
 		$get_extension = explode(".", $img_name);
@@ -20,7 +20,7 @@ function add_file() {
 			echo "<div class='error'>Invalid image extension. We cannot process ".$end." files. </di>";
 		}else{
 			move_uploaded_file($tmp_name, "$store/$img_name");
-			$Query = $db->prepare("INSERT INTO file(file_name, file_text) VALUES (?)");
+			$Query = $db->prepare("INSERT INTO file(file_name, message) VALUES (?)");
 			$Query->execute(array($img_name, $img_text));
 			if($Query){
 				echo "Thank you for sharing the love!";
