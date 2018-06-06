@@ -145,11 +145,11 @@
 		<hr> 
  
 <form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
-<div class="form-group" style="text-align:center">
+<div class="form-group" style="text-align:center;">
 <label for="message">Message</label>
 <input type="text" class="form-control" id="message" name="message" placeholder="Enter message" required />
 </div>
-<div style="text-align:center">
+<div style="text-align:center;margin:auto;">
 <input id="uploadImage" type="file" accept="image/*" name="image" />
 </div>
 <br>
@@ -157,11 +157,10 @@
 <!--thumbnail start-->
 <div class="row">
   <div class="col-xs-6 col-md-3">
-    <a class="thumbnail">
+    <a class="thumbnail" style="text-align:center;margin:auto;">
       <div id="preview"></div>
     </a>
   </div>
-  ...
 </div>
 <!--thumbnail end-->
 </form>
@@ -234,7 +233,7 @@
                 <section>
                     <h2>Follow</h2>
                     <ul class="icons">
-                        <li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>
+                        <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li class="popup" ><a class="icon style2 fa-phone"><span class="label" id="myPopup">(216) 361-2040</span></a></li>
                         <li class="popup" ><a class="icon style2 fa-envelope-o"><span class="label" id="myPopup">cleumadaop@gmail.com</span></a></li>
                     </ul>
