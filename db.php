@@ -2,7 +2,7 @@
  
 //DB details
  
-$dbHost = '%';
+$dbHost = '204.48.17.31:3306';
  
 $dbUsername = 'wvfdavanhx';
  
