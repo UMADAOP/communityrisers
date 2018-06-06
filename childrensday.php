@@ -130,7 +130,7 @@
 					<dd>The Commonwealth of Massachusetts issues an annual proclamation for the second Sunday in June.</dd>
 					<dd>Numerous churches and denominations currently observethe second Sunday in June including the African Methodist Episcopal Church, African Methodist Episcopal Zion Church, Christian Methodist Episcopal Church, and the Church of the Nazarene.</dd>
 				</dl>
-				<br / ><br />
+				<br / ><i class="fas fa-child" ></i><br />
                 <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
             </div>  <!-- end inner div-->
         </div>
