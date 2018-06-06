@@ -4,6 +4,7 @@
     <title>Privacy Policy</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
@@ -16,7 +17,7 @@
 
                 <!-- Logo -->
                 <a href="index.php" class="logo">
-                    <span class="symbol"><img src="images/logo.jpg" alt="" /></span><span class="title">Hough Neighbors</span>
+                    <span class="symbol"><img src="app_images/logo.jpg" alt="" /></span><span class="title">Community Children's Network</span>
                 </a>
 
                 <!-- Nav -->
@@ -40,15 +41,17 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1 id="policyheading">Cleveland UMADAOP Online CHILDREN'S PRIVACY POLICY</h1>
+                <h1 class="lead" id="policyheading">Cleveland UMADAOP Online CHILDREN'S PRIVACY POLICY</h1>
                 <br />
                 <p id="policy">
                     The Cleveland Urban Minority Alcoholism Drug Abuse Outreach Project (UMADAOP), including for example Drug-Free Friend (DFF) and Distinguished Gentlemen of Spoken Word (DGSW), is committed to protecting the privacy of children who use our website Devices and applications (after to be referred to as Devices). The Devices that we operate provide a forum for all family members, including children, to express their commitments, opinions, and concerns about the promotion of activities that enhance the prevention of behavioral health problems. While we encourage children to participate appropriately on our Devices, their privacy is extremely important to us. The UMADAOP Children's Privacy Policy explains our information practices in connection with information provided by children under the age of 13 ("child" or "children") on Devices that link to this Children's Privacy Policy. The Devices are controlled and operated by us from the United States and are not intended to subject us to the laws or jurisdiction of any state, country or territory other than that of the United States. We support the Children's Online Privacy Protection Act (COPPA), and our goal is to minimize the information gathered from and disseminated about children under 13 while still allowing them to actively participate and fully trust the information, education, and activities that we offer.
-                    <h3>1.  How We Collect and Use Information from Children<h3>
+                    <br />
+					<h3>1.  How We Collect and Use Information from Children<h3>
 					<br />
                     Children can explore the Devices, and can view and print reviews, comments, ratings and submit creative content without providing any personal information other than the automatic collection of device "persistent identifiers," as discussed in greater detail below. Our Devices only collect limited personal information about a child if the child registers to become a member or submits a question or request to us. If the information collected from a child does not identify or allow contact with him or her or his or her device (including, for example, aggregated information), we may use and disclose it for any purpose, to the extent permitted by applicable law.
                     <br />
 					Registration Process. If a child wants to register to become a member of our Devices, we require the child to submit the following information:
+					<br />
 					<ul>
 						<li>Username (the child is advised not to use his or her real name)</li>
 						<li>Password</li>
@@ -58,6 +61,7 @@
                     We also require the child to provide a parent's email address. We use the parent's email address to seek parental consent for the child's registration and to explain what information we are collecting, how we plan to use it, and how the parent can revoke consent or request at any time that we remove the account and delete any personal information collected from the child (including the parental contact information). If you believe your child is participating in an activity that collects personal information and you or another parent/guardian have NOT consented, or if you no longer wish for your child to participate as a member of the Devices, please feel free to contact us at cleumadaop@aol.com, and we will delete your child's account and the parental contact information.
 					<br />
                     We may use information collected from children during the registration process in the following manner:
+					<br />
 					<ul>
 						<li>To create and maintain the child's account</li>
 						<li>To determine the child's current age and post it next to any reviews or comments posted by the child. We do not post the child's username or any personal information</li>
@@ -68,7 +72,8 @@
                     <em>Reviews and Other Site Activities.</em> A child may choose to write and post reviews on the Devices, such as reviews of movies, games, web devices, TV, books, apps and music. Children also may participate in other activities, such as posting comments on our articles. We moderate children's postings to remove personal information, and we encourage parents to discuss with their children why they should NEVER include personal information in reviews or comments posted to the Devices. Children may also participate in other online activities, such as polls. As discussed in our Privacy Policy, all members, including children, have the ability to delete their postings to the Devices. Members can delete their postings by logging into their accounts, viewing the review or comment, and clicking the "delete" button. Or, a member can send an email requesting deletion to cleumadaop@aol.com , noting username, date of the review or comment, and title of media type reviewed. (Parents may also delete children's postings or other information, as described in Section D.) It is possible that deleted reviews or comments will remain in our system (such as in backups of our data), but they will not be visible through the Devices. Please note that your request or deletion does not ensure complete or comprehensive removal of the content or information, as, for example, some of your content may have been reposted by another user.
 					<br />
                     <em>Persistent Identifiers.</em> When children interact with the Devices, certain technical information may automatically be collected, both to make our Devices more interesting and useful and for various internal purposes related to our business. Examples of information that is automatically collected include: the type of computer operating system, the device's IP address or mobile device identifier, the web browser, the frequency with which the child visits various parts of our Devices, and information regarding the online or mobile service provider. This information is collected using technologies such as cookies, flash cookies, web beacons, and other unique identifiers (which we define under the "Cookies and Other Technologies" section of our general Privacy Policy). This information may be collected by us or by a third party. Persistent identifier information is used by Cleveland UMADAOP for the sole purpose of providing support for our internal operations, including in order to:
-                    <ul>
+                    <br />
+					<ul>
 						<li>Ensure that the Devices function properly</li>
 						<li>Enable us to conduct research and analysis to understand, address and improve the use and performance of the Devices</li>
 						<li>Diagnose and respond to problems</li>
@@ -128,7 +133,7 @@
                 <section>
                     <h2>Follow</h2>
                     <ul class="icons">
-                        <li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>
+                        <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
                         <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
@@ -146,9 +151,12 @@
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>

@@ -4,6 +4,7 @@
     <title>Terms and Conditions</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
@@ -16,7 +17,7 @@
 
                 <!-- Logo -->
                 <a href="index.php" class="logo">
-                    <span class="symbol"><img src="images/logo.jpg" alt="" /></span><span class="title">Hough Neighbors</span>
+                    <span class="symbol"><img src="app_images/logo.jpg" alt="" /></span><span class="title">Community Children's Network</span>
                 </a>
 
                 <!-- Nav -->
@@ -40,20 +41,20 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1>Terms and Conditions</h1>
+                <h1 class="lead" id="termsheading">Terms and Conditions</h1>
                 <br />
                 <p id="terms">
                     Access to and use of this website is provided by Cleveland Urban Minority Alcoholism Drug Abuse Outreach Project (hereafter referred to as UMADAOP) subject to the following terms and conditions:
 					<br />
                     1. UMADAOP's Website Terms and Conditions as detailed below apply to all UMADAOP Sites.
 					<br />
-                    2. Use of this Site constitutes your acceptance of these terms and conditions which takes effect on the date on which you first use the Site. UMADAOP reserves the right to add to or change these terms and conditions at any time by posting changes online and it is your responsibility to refer to and comply with these terms on accessing the site. Your continued use of this site after changes are posted constitutes your acceptance of these terms and conditions as modified. Use of this site also constitutes your acceptance of UMADAOP�s privacy policy which you should read before you use this site.
+                    2. Use of this Site constitutes your acceptance of these terms and conditions which takes effect on the date on which you first use the Site. UMADAOP reserves the right to add to or change these terms and conditions at any time by posting changes online and it is your responsibility to refer to and comply with these terms on accessing the site. Your continued use of this site after changes are posted constitutes your acceptance of these terms and conditions as modified. Use of this site also constitutes your acceptance of UMADAOP's privacy policy which you should read before you use this site.
                     <br />
 					3. You acknowledge that all intellectual property rights, including copyright and database rights, in the UMADAOP website and its contents belong to or have been licensed to UMADAOP or are otherwise used by UMADAOP as permitted by applicable law.
                     <br />
 					4. In accessing the UMADAOP website you agree to access the contents solely for your own personal, non-commercial use. You are not permitted to copy, download, store in any medium (including any other website), distribute, transmit, broadcast, show in public, adapt or change in any way any part of the UMADAOP website for any other purpose without the prior written permission of UMADAOP or in accordance with the Copyright, Designs and Patents Act or other applicable law.
                     <br />
-					5. Links to the UMADAOP site are welcome, provided they link to the UMADAOP website's homepage. UMADAOP disclaims all liability for any legal or other consequences (including for infringement of third party rights) of links made to the UMADAOP�s website.
+					5. Links to the UMADAOP site are welcome, provided they link to the UMADAOP website's homepage. UMADAOP disclaims all liability for any legal or other consequences (including for infringement of third party rights) of links made to the UMADAOP's website.
                     <br />
 					6. UMADAOP provides the material published on its website on the basis that it makes no express or implied warranties in respect of the material. UMADAOP and the original providers of the material exclude to the fullest extent permitted by law all liability for any damages or losses and for any direct, indirect, incidental or consequential loss of business, anticipated savings, revenues or profits or goodwill or reputation or special damages or loss arising from the publication of the material on the UMADAOP website.
                     <br />
@@ -98,7 +99,7 @@
                 <section>
                     <h2>Follow</h2>
                     <ul class="icons">
-                        <li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>
+                        <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
                         <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
@@ -116,9 +117,12 @@
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>
