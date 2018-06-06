@@ -145,12 +145,13 @@
 		<hr> 
  
 <form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
-<div class="form-group">
+<div class="form-group" style="text-align:center">
 <label for="message">Message</label>
 <input type="text" class="form-control" id="message" name="message" placeholder="Enter message" required />
 </div>
- 
+<div style="text-align:center">
 <input id="uploadImage" type="file" accept="image/*" name="image" />
+</div>
 <br>
 <input class="btn btn-success" type="submit" value="Upload">
 <!--thumbnail start-->
