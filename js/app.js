@@ -2,12 +2,13 @@
                    Popup text for icons
 *******************************************************/
 
-function popupFunction() {
+/*
+ function popupFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
     console.log("it popped!");
 }
-
+*/
 
 /*******************************************************
                    Uploads
@@ -39,7 +40,7 @@ function show_images() {
         }
     })
 }
-show_images();
+/* show_images(); */
 
 
 /*******************************************************

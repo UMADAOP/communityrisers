@@ -47,6 +47,6 @@ function show_images(){
 		}
 	}
 }
-show_images();
+/* show_images(); */
  
 ?>
