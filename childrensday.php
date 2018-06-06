@@ -124,7 +124,43 @@
                 <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
             </div>  <!-- end inner div-->
         </div>
-        <!-- Uploads -->
+		
+		
+		
+		
+		
+		
+		<!--Uploads- example start-->
+		<hr> 
+ 
+<form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
+<div class="form-group">
+<label for="message">Message</label>
+<input type="text" class="form-control" id="message" name="message" placeholder="Enter message" required />
+</div>
+ 
+<input id="uploadImage" type="file" accept="image/*" name="image" />
+<div id="preview"><img src="filed.png" /></div><br>
+<input class="btn btn-success" type="submit" value="Upload">
+</form>
+ 
+<div id="err"></div>
+<hr>
+		<!--Uploads - example end-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        <!-- Uploads- original 
         <div class="container">
             <form enctype="multipart/form-data" id="upload_form" method="POST" >
                 <div class="form-group">
@@ -139,7 +175,19 @@
                 <hr>
             </form>
             <div class="show-images"></div>
-        </div> <!-- close container -->
+        </div> < close container -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
