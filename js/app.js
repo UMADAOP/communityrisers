@@ -17,8 +17,8 @@ function popupFunction() {
  function add_file() {
     $.ajax({
         type: 'POST',
-        url: 'ajax.php?my_form=ajax_form',
-        data: new FormData($('#upload_file')[0]),
+        url: 'ajax.php?my_form=ajax_form', 
+        data: new FormData($('#upload_form')[0]),
         processData: false,
         contentType: false,
         success: function (data) {

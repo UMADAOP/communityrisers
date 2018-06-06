@@ -164,8 +164,8 @@
                     <h2>Follow</h2>
                     <ul class="icons">
                         <li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>
-                        <li class="popup" onclick="popupFunction()"><a class="icon style2 fa-phone"><span class="label" id="myPopup">(216) 361-2040</span></a></li>
-                        <li class="popup" onclick="popupFunction()"><a class="icon style2 fa-envelope-o"><span class="label" id="myPopup">cleumadaop@gmail.com</span></a></li>
+                        <li class="popup" ><a class="icon style2 fa-phone"><span class="label" id="myPopup">(216) 361-2040</span></a></li>
+                        <li class="popup" ><a class="icon style2 fa-envelope-o"><span class="label" id="myPopup">cleumadaop@gmail.com</span></a></li>
                     </ul>
                 </section>
                 <ul class="copyright">
