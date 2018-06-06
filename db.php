@@ -2,7 +2,7 @@
  
 //DB details
  
-$dbHost = 'localhost';
+$dbHost = '%';
  
 $dbUsername = 'wvfdavanhx';
  
