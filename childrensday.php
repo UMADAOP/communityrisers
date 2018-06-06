@@ -140,7 +140,7 @@
 </div>
  
 <input id="uploadImage" type="file" accept="image/*" name="image" />
-<div id="preview"><img src="filed.png" /></div><br>
+<div id="preview"></div><br>
 <input class="btn btn-success" type="submit" value="Upload">
 </form>
  
