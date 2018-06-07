@@ -85,7 +85,21 @@
             left: 16px;
             width: 200px;
             height: 200px;
-            background-image: url('app_images/star2.jpg');
+            background-image: url('app_images/star3.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 1px top ;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		}
+		
+	    #star4 {
+			position: absolute;
+            bottom: 8px;
+            right: 16px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star4.jpg');
             background-color: lightyellow;
             background-size: 90%;
             background-repeat: no-repeat;
