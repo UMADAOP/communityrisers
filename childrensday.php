@@ -226,7 +226,7 @@ $result = $db->query($sql);
 
 if ($result->num_rows > 0)
 {
-echo "<img border=\"0\" src=\"".$row['file_name']."\" width=\"102\" alt=\"Your Name\" height=\"91\">";
+echo "<img border=\"0\" src=\"images/".$row['file_name']."\" width=\"102\"  height=\"91\">";
 }
 //echo "<div class=\"row\">
 	//	<div class=\"col-md-12\">
