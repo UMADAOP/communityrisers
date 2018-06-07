@@ -53,7 +53,7 @@ if($myFile['size'] > 500000){
 //$sql_query = "SELECT file_name, message FROM file WHERE file_name=$email_id AND password=$password";
 $query = "SELECT * FROM file";
 
-$result = mysqli_query($query) or die(mysqli_error());
+$result = mysqli_query($db,$query);
 
 while($row = mysqli_fetch_array($result))
 {
