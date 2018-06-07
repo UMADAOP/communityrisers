@@ -21,3 +21,5 @@ if($db->connect_error){
    die("Unable to connect database: " . $db->connect_error);
  
 }
+
+?>
