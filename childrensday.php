@@ -89,7 +89,7 @@
             background-color: lightyellow;
             background-size: 90%;
             background-repeat: no-repeat;
-            background-position: right 1px top ;
+            background-position: right 1px bottom ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 		}
 		
@@ -152,8 +152,9 @@
 					<div id="star4"></div>
                 </div>
 				<br />
-				<dl class="lead" id="childrenshistory">
-					<dt style="background-color:rgba(0,128,128,0.6);">The History</dt>
+				<dl id="childrenshistory">
+				<h3 class="lead" style="background-color:rgba(0,128,128,0.6);">The History</h3>
+					<dt  class="display-none" style="display:none">The History</dt>
 					<dd>Children's Day observations in the United States predate both Mother's and Father's Day. The day to celebrate children dates from the 1860s and earlier.</dd>
 					<dd>The Methodist Episcopal Church at the Methodist Conference of 1868 recommended that the second Sunday in June be observed annually as Children’s Day.</dd>
 					<dd>The General Assembly of the Presbyterian Church in 1883 designated the second Sabbath in June as Children’s Day.</dd>
