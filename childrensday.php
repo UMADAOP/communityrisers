@@ -195,7 +195,7 @@ $result = $db->query($sql);
 
 if ($result->num_rows > 0)
 {
-echo "We got the data!";
+echo "<img border=\"0\" src=\"".$row['file_name']."\" width=\"102\" alt=\"Your Name\" height=\"91\">";
 }
 //echo "<div class=\"row\">
 	//	<div class=\"col-md-12\">
