@@ -162,7 +162,7 @@
 </div>
 <!--thumbnail end-->
 </form>
- 
+<img src="images/<?php echo $image ?>" /> 
 <div id="err"></div>
 <hr>
 		<!--Uploads - example end-->

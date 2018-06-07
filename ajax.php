@@ -50,16 +50,7 @@ if($myFile['size'] > 500000){
 }
 
 
-
-
 //$sql_query = "SELECT file_name, message FROM file WHERE file_name=$email_id AND password=$password";
-
-
-
-
-
-
-
 
 
 
