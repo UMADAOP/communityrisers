@@ -170,9 +170,14 @@
 <?php
 include_once 'db.php';
 
-$query = "SELECT * FROM file";
+if (mysqli_connect_errno())
+{
+	echo "Failed to connect to Database: " . mysqli_connect_error();
+}
 
-$result = mysqli_query($db,$query);
+//$query = "SELECT * FROM file";
+
+$result = mysqli_query($db,"SELECT * FROM file");
 
 while($row = mysqli_fetch_array($result))
 {
@@ -188,14 +193,9 @@ echo "<div class=\"row\">
 	</div>"
 }
 
+mysqli_close($db);
+
 ?>		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
