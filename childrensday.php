@@ -190,10 +190,11 @@ if($db->connect_error){
  
 }
 
-$sql = "SELECT * from file";
+$sql = "SELECT * FROM file";
 $result = $db->query($sql);
 
-
+if ($result->num_rows > 0)
+{
 
 
 echo "<div class=\"row\">
@@ -211,7 +212,9 @@ echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
 echo 	   "</div>
 		 </div>
 	  </div>"
-
+}else {
+	echo "0 results found";
+}
 $db->close();
 header("Location: http://ccnrisers.org/childrensday.php");
 ?>		
