@@ -51,28 +51,10 @@ if($myFile['size'] > 500000){
 
 
 //$sql_query = "SELECT file_name, message FROM file WHERE file_name=$email_id AND password=$password";
-$query = "SELECT * FROM file";
-
-$result = mysqli_query($db,$query);
-
-while($row = mysqli_fetch_array($result))
-{
-echo "<div class=\"row\">
-		<div class=\"col-md-12\">
-			<div class=\"thumbnail\">
-				<img src=\"".$row['file_name']."\" alt=\"Image\">
-				<div class=\"caption\">
-					<p>".$row['message']."</p>
-				</div>
-			</div>
-		</div>
-	</div>"
-}
-
-
 
 
 
 }
+
 
 ?>
