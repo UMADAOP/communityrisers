@@ -130,9 +130,9 @@
 					<dd>The Commonwealth of Massachusetts issues an annual proclamation for the second Sunday in June.</dd>
 					<dd>Numerous churches and denominations currently observethe second Sunday in June including the African Methodist Episcopal Church, African Methodist Episcopal Zion Church, Christian Methodist Episcopal Church, and the Church of the Nazarene.</dd>
 				</dl>
-				
+				<h3 class="lead" id="posts" style="background-color:rgba(0,128,128,0.6);">Posts</h3>
                 <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
-				<h3 class="lead" id="posts" style="background-color:rgba(0,128,128,0.6);">Posts</h3>				
+								
 			</div>  <!-- end inner div-->
         </div>
 		
@@ -168,6 +168,57 @@
 		<!--Uploads - example end-->
 		
 
+		
+		
+		
+<?php
+//include_once 'db.php';
+
+include 'db.php';
+
+if (mysqli_connect_errno())
+{
+	echo "Failed to connect to Database: " . mysqli_connect_error();
+}
+
+//$query = "SELECT * FROM file";
+
+$result = mysqli_query($db,"SELECT * FROM file");
+
+echo "<div class=\"row\">
+		<div class=\"col-md-12\">
+			<div class=\"thumbnail\">"
+
+while($row = mysqli_fetch_array($result))
+{
+echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
+				<div class=\"caption\">
+					<p>".$row['message']."</p>
+				</div>"
+}
+
+echo 	   "</div>
+		 </div>
+	  </div>"
+
+mysqli_close($db);
+
+?>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
