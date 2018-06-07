@@ -78,6 +78,20 @@
             background-position: right 1px top ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
         }
+		
+		#star3 {
+			position: absolute;
+            bottom: 30px;
+            left: 16px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star2.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 1px top ;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		}
     </style>
 
     <meta charset="utf-8" />
@@ -120,6 +134,8 @@
                     <div id="particles-js"></div>
                     <div id="star1"></div>
                     <div id="star2"></div>
+					<div id="star3"></div>
+					<div id="star4"></div>
                 </div>
 				<br />
 				<dl class="lead" id="childrenshistory">
