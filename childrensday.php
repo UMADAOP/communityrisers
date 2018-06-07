@@ -229,7 +229,7 @@ if ($result->num_rows > 0)
 //echo "<img border=\"0\" src=\"images/".$row['file_name']."\" width=\"102\"  height=\"91\">";
 
 echo "The messages";
-echo "<p>". $row['message'] . "</p>";
+echo "<p>". $row["message"] . "</p>";
 }
 //echo "<div class=\"row\">
 	//	<div class=\"col-md-12\">
