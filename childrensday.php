@@ -171,50 +171,6 @@
 		
 		
 		
-<?php
-$dbHost = 'localhost';
- 
-$dbUsername = 'wvfdavanhx';
- 
-$dbPassword = 'A8vBpYb4fY';
- 
-$dbName = 'wvfdavanhx';
- 
-//Create connection and select DB
- 
-$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
- 
-if($db->connect_error){
- 
-   die("Unable to connect database: " . $db->connect_error);
- 
-}
-
-$sql = "SELECT * from file";
-$result = $db->query($sql);
-
-
-
-
-echo "<div class=\"row\">
-		<div class=\"col-md-12\">
-			<div class=\"thumbnail\">"
-
-while($row = $result->fetch_assoc())
-{
-echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
-				<div class=\"caption\">
-					<p>".$row['message']."</p>
-				</div>"
-}
-
-echo 	   "</div>
-		 </div>
-	  </div>"
-
-$db->close();
-
-?>		
 		
 		
 		
@@ -252,11 +208,7 @@ $db->close();
 		
 		
 		
-		
-		
-		
-		
-		
+			
 		
 		
 		
