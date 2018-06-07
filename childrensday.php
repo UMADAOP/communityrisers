@@ -172,24 +172,35 @@
 		
 		
 <?php
-//include_once 'db.php';
-
-include 'db.php';
-
-if (mysqli_connect_errno())
-{
-	echo "Failed to connect to Database: " . mysqli_connect_error();
+$dbHost = 'localhost';
+ 
+$dbUsername = 'wvfdavanhx';
+ 
+$dbPassword = 'A8vBpYb4fY';
+ 
+$dbName = 'wvfdavanhx';
+ 
+//Create connection and select DB
+ 
+$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+ 
+if($db->connect_error){
+ 
+   die("Unable to connect database: " . $db->connect_error);
+ 
 }
 
-//$query = "SELECT * FROM file";
+$sql = "SELECT * from file";
+$result = $db->query($sql);
 
-$result = mysqli_query($db,"SELECT * FROM file");
+
+
 
 echo "<div class=\"row\">
 		<div class=\"col-md-12\">
 			<div class=\"thumbnail\">"
 
-while($row = mysqli_fetch_array($result))
+while($row = $result->fetch_assoc())
 {
 echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
 				<div class=\"caption\">
@@ -201,7 +212,7 @@ echo 	   "</div>
 		 </div>
 	  </div>"
 
-mysqli_close($db);
+$db->close();
 
 ?>		
 		
