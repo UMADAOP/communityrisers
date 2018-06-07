@@ -193,30 +193,30 @@ if($db->connect_error){
 $sql = "SELECT * FROM file";
 $result = $db->query($sql);
 
-if ($result->num_rows > 0)
-{
+//if ($result->num_rows > 0)
+//{
 
 
-echo "<div class=\"row\">
-		<div class=\"col-md-12\">
-			<div class=\"thumbnail\">"
+//echo "<div class=\"row\">
+	//	<div class=\"col-md-12\">
+		//	<div class=\"thumbnail\">"
 
-while($row = $result->fetch_assoc())
-{
-echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
-				<div class=\"caption\">
-					<p>".$row['message']."</p>
-				</div>"
-}
+//while($row = $result->fetch_assoc())
+//{
+//echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
+	//			<div class=\"caption\">
+		//			<p>".$row['message']."</p>
+			//	</div>"
+//}
 
-echo 	   "</div>
-		 </div>
-	  </div>"  
-}else {
-	"0 results found";
-}
+//echo 	   "</div>
+//		 </div>
+//	  </div>"  
+//}else {
+	//"0 results found";
+//}
 $db->close();
-header("Location: http://ccnrisers.org/childrensday.php");
+//header("Location: http://ccnrisers.org/childrensday.php");
 ?>		
 		
 		
