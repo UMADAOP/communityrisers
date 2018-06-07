@@ -193,10 +193,10 @@ if($db->connect_error){
 $sql = "SELECT * FROM file";
 $result = $db->query($sql);
 
-//if ($result->num_rows > 0)
-//{
-
-
+if ($result->num_rows > 0)
+{
+echo "We got the data!";
+}
 //echo "<div class=\"row\">
 	//	<div class=\"col-md-12\">
 		//	<div class=\"thumbnail\">"
