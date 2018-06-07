@@ -167,36 +167,7 @@
 <hr>
 		<!--Uploads - example end-->
 		
-<?php
-include_once 'db.php';
 
-if (mysqli_connect_errno())
-{
-	echo "Failed to connect to Database: " . mysqli_connect_error();
-}
-
-//$query = "SELECT * FROM file";
-
-$result = mysqli_query($db,"SELECT * FROM file");
-
-while($row = mysqli_fetch_array($result))
-{
-echo "<div class=\"row\">
-		<div class=\"col-md-12\">
-			<div class=\"thumbnail\">
-				<img src=\"".$row['file_name']."\" alt=\"Image\">
-				<div class=\"caption\">
-					<p>".$row['message']."</p>
-				</div>
-			</div>
-		</div>
-	</div>"
-}
-
-mysqli_close($db);
-
-?>		
-		
 		
 		
 		
