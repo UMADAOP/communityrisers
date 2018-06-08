@@ -203,34 +203,50 @@
 		
 		
 <?php
-$dbHost = '204.48.17.31:3306';
+//$dbHost = '204.48.17.31:3306';
  
-$dbUsername = 'wvfdavanhx';
+//$dbUsername = 'wvfdavanhx';
  
-$dbPassword = 'A8vBpYb4fY';
+//$dbPassword = 'A8vBpYb4fY';
  
-$dbName = 'wvfdavanhx';
+//$dbName = 'wvfdavanhx';
  
 //Create connection and select DB
  
-$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+//$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
  
-if($db->connect_error){
+//if($db->connect_error){
  
-   die("Unable to connect database: " . $db->connect_error);
+//   die("Unable to connect database: " . $db->connect_error);
  
+//}
+
+include 'db.php';
+
+$sql = "SELECT * FROM file";
+//$result = $db->query($sql);
+$result = mysqli_query($db,$sql) or die(mysqli_error());
+while($row = mysqli_fetch_array($result))
+{
+$message = $row['message'];
+$img = $row['file_name'];
+
+echo "<img border=\"0\" src=\"images/".$img."\" width=\"102\"  height=\"91\">";
+echo "<p>". $message . "</p>";
 }
 
-$sql = "SELECT message FROM file";
-$result = $db->query($sql);
 
-if ($result->num_rows > 0)
-{
+
+
+
+//while ($result->num_rows > 0)
+//{
 //echo "<img border=\"0\" src=\"images/".$row['file_name']."\" width=\"102\"  height=\"91\">";
 
-echo "The messages";
-echo "<p>". $row["message"] . "</p>";
-}
+//echo "The messages";
+//echo "<p>". $row["message"] . "</p>";
+
+//}
 //echo "<div class=\"row\">
 	//	<div class=\"col-md-12\">
 		//	<div class=\"thumbnail\">"
@@ -249,7 +265,8 @@ echo "<p>". $row["message"] . "</p>";
 //}else {
 	//"0 results found";
 //}
-$db->close();
+mysqli_close($db);
+//$db->close();
 //header("Location: http://ccnrisers.org/childrensday.php");
 ?>		
 		
