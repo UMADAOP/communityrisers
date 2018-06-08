@@ -44,7 +44,7 @@ $sql = "SELECT * FROM file";
 		$img = $row['file_name'];
 
 		echo "<div id=\"thumbrow\" class=\"row\">";
-		echo "<div class=\"col-md-8\">";
+		echo "<div class=\"col-sm-6 col-md-4\">";
 		echo "<div class=\"thumbnail\">";
 		echo "<img border=\"0\" src=\"".$img."\">";
 		echo "<p>". $message . "</p>";

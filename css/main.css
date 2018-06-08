@@ -1273,7 +1273,7 @@ body.is-menu-visible #menu {
 #footer {
     padding: 5em 0 6em 0;
     /* background-color: #f6f6f6; */
-	background-color: #cbbeb5;
+	background-color: #B6C3AF; /* acc */
 }
 
     #footer > .inner {
@@ -1311,7 +1311,8 @@ body.is-menu-visible #menu {
             margin-top: 5em;
             list-style: none;
             font-size: 0.8em;
-            color: rgba(88, 88, 88, 0.5);
+           /* color: rgba(88, 88, 88, 0.5); */
+			color: rgba(88, 88, 88, 0.8); /* acc */
         }
 
 

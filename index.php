@@ -87,7 +87,7 @@
         <footer id="footer">
             <div class="inner">
                 <section>
-                    <!--<h2>Get in touch</h2>-->
+                    <h2>Have a question? Send us a message:</h2><br /><br />
 					<form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
@@ -105,7 +105,7 @@
                     </form>
                 </section>
                 <section>
-                    <h2>Follow</h2>
+                    <h2>Contact</h2> <br /> <br />
                     <ul class="icons">
                         <!--<li><a href="https://www.youtube.com/channel/UCaQ7ijDCIgWKDjSvAzZ1A4A" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>

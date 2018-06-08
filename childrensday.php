@@ -196,7 +196,7 @@
 		$img = $row['file_name'];
 
 		echo "<div id=\"thumbrow\" class=\"row\">";
-		echo "<div class=\"col-md-8\">";
+		echo "<div class=\"col-sm-6 col-md-4\">";
 		echo "<div class=\"thumbnail\">";
 		echo "<img border=\"0\" src=\"".$img."\">";
 		echo "<p>". $message . "</p>";
@@ -234,7 +234,7 @@
                     </form>
                 </section>
                 <section>
-                    <h2>Follow</h2>
+                    <h2>Contact</h2> <br /> <br />
                     <ul class="icons">
                         <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li class="popup" ><a class="icon style2 fa-phone"><span class="label" id="myPopup">(216) 361-2040</span></a></li>

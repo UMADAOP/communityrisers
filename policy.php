@@ -102,20 +102,21 @@
                     We work with third parties who perform site analytics and provide services to keep your user experience on the Site free of spam. The following is a list of our third-party service providers who may collect persistent identifiers or use cookies. Some of these third parties may use this information for their own internal purposes, and not strictly as service providers for Cleveland UMADAOP. These third parties have assured us the information is not used to target advertisements on other third-party Devices or services or used to create profiles.
 					<br><br>
 				</p>
-				    <h3>2. What Information Submitted By Children Is Viewable On the Site?</h3>
 				<p id="policy2">
+				    2. What Information Submitted By Children Is Viewable On the Site?
+				
 					<br>
                     We strictly limit the personal information that is publicly viewable about a member who is known by us to be a child. When a child posts a creative piece, review or comment on the Devices, only the child's age is posted, along with the content of the child's posting. The child's username is not posted with this submitted content on our Devices. Although the child may create a Profile for his or her account (which includes only a username, password, birth month and year, and parent's email address), no portion of the child's Profile other than the child's age is publicly viewable.
                     <br><br>
-					<h3>3. What Is Information About Children Shared?</h3>
+					3. What Is Information About Children Shared?
 					<br>
                     We do not disclose to third parties any children's personal information that we collect other than as follows, consistent with applicable law: (a) with a parent's permission, (b) as required by any applicable law, (c) to third-party service providers who help us operate or manage the Devices, (d) as part of aggregated data shared with third-party service providers, our Board of Directors, funders and other partners, as described in the Privacy Policy, (e) to comply with legal process, (f) to respond to governmental requests, (g) to enforce our Terms of Service, (h) to protect our operations, (i) for assistance in fraud detection and prevention; (j) to protect the rights, privacy, safety or property of Common Sense Media, your child or others, (k) to permit us to pursue available remedies or limit the damages that we may sustain, and (l) in connection with a disposition of all or a substantial portion of our organization, assets or stock, such as a sale, merger, consolidation, reorganization, joint venture, assignment, or bankruptcy or similar proceedings.
                     <br><br>
-					<h3>4. How May Parents Access, Change or Delete Information About Their Child?</h3>
+					4. How May Parents Access, Change or Delete Information About Their Child?
 					<br>
                     Parents may at any time access or change the personal information that we have collected online from their children. Parents may also ask us to cease further collection of personal information from their children, or to make no further use of, or delete, the personal information we have collected online from their children, in which case, the child's account will be deleted. Parents may make these changes by clicking on the child's "My Account" link, by contacting us at cleumadaop@aol.com, or by writing to us at the address provided below. For your child's protection, we may need to verify your identity before implementing your request. We will try to comply with your request as soon as reasonably possible.
                     <br><br>
-					<h3>5. How can parents raise other questions or concerns?</h3>
+					5. How can parents raise other questions or concerns?
 					<br>
                     If a parent has any questions or concerns about his or her child's use of the Devices, we encourage the parent to contact us at cleumadaop@aol.com or:
                     <br><br>
