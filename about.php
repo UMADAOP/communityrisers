@@ -1,14 +1,16 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
-    <title>Community Children's Network</title>
+    <title>Terms and Conditions</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
     <!-- Wrapper -->
     <div id="wrapper">
+
         <!-- Header -->
         <header id="header">
             <div class="inner">
@@ -19,7 +21,7 @@
                 </a>
 
                 <!-- Nav -->
-                <nav>
+                <nav id="menu">
                     <ul>
                         <li><a href="#menu">Menu</a></li>
                     </ul>
@@ -39,47 +41,34 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <header>
-                    <h1>
-                        History will judge us by the difference we make in the everyday lives of children. <br />
-                        - Nelson Mandela<h1>
-                </header>
-                <br /><br />
-                <section class="tiles">
-                    <article class="style1">
-                        <span class="image">
-                            <img src="app_images/pic01.jpg" alt="" />
-                        </span>
-                        <a href="childrensday.php">
-                            <h2>Children's Day 2018</h2>
-                            <div class="content">
-                                <p>June 10th <br /> Send the Love</p>
-                            </div>
-                        </a>
-                    </article>
-                    <article class="style2">
-                        <span class="image">
-                            <img src="app_images/pic02.jpg" alt="" />
-                        </span>
-                        <a href="index.php">
-                            <h2>3.0 Club</h2>
-                            <div class="content">
-                                <p>Coming Soon</p>
-                            </div>
-                        </a>
-                    </article>
-                    <!--<article class="style3">
-                        <span class="image">
-                            <img src="images/pic03.jpg" alt="" />
-                        </span>
-                        <a href="childrensday.php">
-                            <h2>Spoken Word Fest</h2>
-                            <div class="content">
-                                <p>Brief Description, maybe location and sponsors info?</p>
-                            </div>
-                        </a>
-                    </article>-->
-                </section>
+                <h1 class="lead" id="aboutusheading">About Us</h1>
+                <br />
+                <p id="about">
+                  The Community Children’s Network (CCN) exist to affirm the
+children in the community. CCN is an effort to celebrate
+children because they are worth celebrating. Yes, it is just that
+simple.
+The fundamental belief of the Community Children’s Network is
+that when we value our children, we are securing our hopes
+and dreams and proclaiming the worth of our legacy.
+The Community Children’s Network is made up of a diverse
+group of people and entities that provide a vast menu of
+supports that demonstrate their willingness and commitment
+to helping elevate children in the community. We refer to
+these people and institutions as Risers. Risers strive to
+immerse our children in the fertile soils of our cultural values
+binding them to our ancestral ethos and strengthen them for
+forthcoming future. Risers are the wind beneath our children’s
+wings preparing them so that they can soar into a world that
+awaits their brilliance, their beauty and their intelligence
+possessing an abundance of confidence and fortitude.
+The Community Children’s Network is a digital platform that
+allows people in the community to learn about the brilliance of
+our children; to share about the accomplishments of our
+
+children; to send messages of support, appreciation, and love
+to our children.
+                </p>
             </div>
         </div>
 
@@ -88,7 +77,7 @@
             <div class="inner">
                 <section>
                     <!--<h2>Get in touch</h2>-->
-					<form method="post" action="https://formspree.io/cleumadaop@aol.com">
+                   <form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
                         </div>
@@ -107,7 +96,7 @@
                 <section>
                     <h2>Follow</h2>
                     <ul class="icons">
-                        <!--<li><a href="https://www.youtube.com/channel/UCaQ7ijDCIgWKDjSvAzZ1A4A" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
+                        <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
                         <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
@@ -126,9 +115,11 @@
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>

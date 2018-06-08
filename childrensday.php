@@ -231,7 +231,7 @@ while($row = mysqli_fetch_array($result))
 $message = $row['message'];
 $img = $row['file_name'];
 
-echo "<img border=\"0\" src=\"images/".$img."\" width=\"102\"  height=\"91\">";
+echo "<img border=\"0\" src=\"".$img."\" width=\"102\"  height=\"91\">";
 echo "<p>". $message . "</p>";
 }
 
@@ -265,7 +265,7 @@ echo "<p>". $message . "</p>";
 //}else {
 	//"0 results found";
 //}
-mysqli_close($db);
+//mysqli_close($db);
 //$db->close();
 //header("Location: http://ccnrisers.org/childrensday.php");
 ?>		
@@ -345,6 +345,7 @@ mysqli_close($db);
                     <li>Designed with Love: <a href="http://alexischandler.com">A-CHAN</a></li>
                     <li><a href="policy.php">Privacy Policy</a></li>
                     <li><a href="terms.php">Terms & Conditions</a></li>
+					<li><a href="about.php">About Us</a></li>
                 </ul>
             </div>
         </footer>

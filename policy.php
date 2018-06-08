@@ -43,7 +43,7 @@
             <div class="inner">
                 <h1 class="lead" id="policyheading">Cleveland UMADAOP Online CHILDREN'S PRIVACY POLICY</h1>
                 <br />
-                <p id="policy">
+                <p class="policy">
                     The Cleveland Urban Minority Alcoholism Drug Abuse Outreach Project (UMADAOP), including for example Drug-Free Friend (DFF) and Distinguished Gentlemen of Spoken Word (DGSW), is committed to protecting the privacy of children who use our website Devices and applications (after to be referred to as Devices). The Devices that we operate provide a forum for all family members, including children, to express their commitments, opinions, and concerns about the promotion of activities that enhance the prevention of behavioral health problems. While we encourage children to participate appropriately on our Devices, their privacy is extremely important to us. The UMADAOP Children's Privacy Policy explains our information practices in connection with information provided by children under the age of 13 ("child" or "children") on Devices that link to this Children's Privacy Policy. The Devices are controlled and operated by us from the United States and are not intended to subject us to the laws or jurisdiction of any state, country or territory other than that of the United States. We support the Children's Online Privacy Protection Act (COPPA), and our goal is to minimize the information gathered from and disseminated about children under 13 while still allowing them to actively participate and fully trust the information, education, and activities that we offer.
                     <br><br>
 					1.  How We Collect and Use Information from Children
@@ -52,7 +52,7 @@
                     <br>
 					Registration Process. If a child wants to register to become a member of our Devices, we require the child to submit the following information:
 					<br><br>
-					<ul>
+					<ul >
 						<li>Username (the child is advised not to use his or her real name)</li>
 						<li>Password</li>
 						<li>Birth month and year</li>
@@ -113,7 +113,7 @@
         <footer id="footer">
             <div class="inner">
                 <section>
-                    <h2>Have a question? Contact us:</h2>
+                    <h2>Have a question? Send us a message:</h2><br />
                  <form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
@@ -131,7 +131,7 @@
                     </form>
                 </section>
                 <section>
-                    <h2>Follow</h2>
+                    <h2>Contact</h2> <br />
                     <ul class="icons">
                         <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
@@ -143,6 +143,7 @@
                     <li>Designed with Love: <a href="http://alexischandler.com">A-CHAN</a></li>
                     <li><a href="policy.php">Privacy Policy</a></li>
                     <li><a href="terms.php">Terms & Conditions</a></li>
+					<li><a href="about.php">About Us</a></li>
                 </ul>
             </div>
         </footer>
@@ -154,7 +155,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
-    <script type="text/javascript" src="js/particles.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 
