@@ -72,37 +72,38 @@
                     <br>
 					Registration Process. If a child wants to register to become a member of our Devices, we require the child to submit the following information:
 					<br><br>
-					<ul class="mylist">
-						<li>Username (the child is advised not to use his or her real name)</li>
-						<li>Password</li>
-						<li>Birth month and year</li>
-					</ul>
+				
+					- Username (the child is advised not to use his or her real name)<br />
+					- Password<br />
+					- Birth month and year<br />
+	
 				    <br>         
                     We also require the child to provide a parent's email address. We use the parent's email address to seek parental consent for the child's registration and to explain what information we are collecting, how we plan to use it, and how the parent can revoke consent or request at any time that we remove the account and delete any personal information collected from the child (including the parental contact information). If you believe your child is participating in an activity that collects personal information and you or another parent/guardian have NOT consented, or if you no longer wish for your child to participate as a member of the Devices, please feel free to contact us at cleumadaop@aol.com, and we will delete your child's account and the parental contact information.
 					<br>
                     We may use information collected from children during the registration process in the following manner:
 					<br><br>
-					<ul class="mylist">
-						<li>To create and maintain the child's account</li>
-						<li>To determine the child's current age and post it next to any reviews or comments posted by the child. We do not post the child's username or any personal information</li>
-					</ul>
+					
+					- To create and maintain the child's account<br />
+					- To determine the child's current age and post it next to any reviews or comments posted by the child. We do not post the child's username or any personal information<br />
+					
                     <br>
                     We do not display advertising based on information collected from children.
 					<br>
-                    <em>Reviews and Other Site Activities.</em> A child may choose to write and post reviews on the Devices, such as reviews of movies, games, web devices, TV, books, apps and music. Children also may participate in other activities, such as posting comments on our articles. We moderate children's postings to remove personal information, and we encourage parents to discuss with their children why they should NEVER include personal information in reviews or comments posted to the Devices. Children may also participate in other online activities, such as polls. As discussed in our Privacy Policy, all members, including children, have the ability to delete their postings to the Devices. Members can delete their postings by logging into their accounts, viewing the review or comment, and clicking the "delete" button. Or, a member can send an email requesting deletion to cleumadaop@aol.com , noting username, date of the review or comment, and title of media type reviewed. (Parents may also delete children's postings or other information, as described in Section D.) It is possible that deleted reviews or comments will remain in our system (such as in backups of our data), but they will not be visible through the Devices. Please note that your request or deletion does not ensure complete or comprehensive removal of the content or information, as, for example, some of your content may have been reposted by another user.
+                    Reviews and Other Site Activities. A child may choose to write and post reviews on the Devices, such as reviews of movies, games, web devices, TV, books, apps and music. Children also may participate in other activities, such as posting comments on our articles. We moderate children's postings to remove personal information, and we encourage parents to discuss with their children why they should NEVER include personal information in reviews or comments posted to the Devices. Children may also participate in other online activities, such as polls. As discussed in our Privacy Policy, all members, including children, have the ability to delete their postings to the Devices. Members can delete their postings by logging into their accounts, viewing the review or comment, and clicking the "delete" button. Or, a member can send an email requesting deletion to cleumadaop@aol.com , noting username, date of the review or comment, and title of media type reviewed. (Parents may also delete children's postings or other information, as described in Section D.) It is possible that deleted reviews or comments will remain in our system (such as in backups of our data), but they will not be visible through the Devices. Please note that your request or deletion does not ensure complete or comprehensive removal of the content or information, as, for example, some of your content may have been reposted by another user.
 					<br>
-                    <em>Persistent Identifiers.</em> When children interact with the Devices, certain technical information may automatically be collected, both to make our Devices more interesting and useful and for various internal purposes related to our business. Examples of information that is automatically collected include: the type of computer operating system, the device's IP address or mobile device identifier, the web browser, the frequency with which the child visits various parts of our Devices, and information regarding the online or mobile service provider. This information is collected using technologies such as cookies, flash cookies, web beacons, and other unique identifiers (which we define under the "Cookies and Other Technologies" section of our general Privacy Policy). This information may be collected by us or by a third party. Persistent identifier information is used by Cleveland UMADAOP for the sole purpose of providing support for our internal operations, including in order to:
+                    Persistent Identifiers. When children interact with the Devices, certain technical information may automatically be collected, both to make our Devices more interesting and useful and for various internal purposes related to our business. Examples of information that is automatically collected include: the type of computer operating system, the device's IP address or mobile device identifier, the web browser, the frequency with which the child visits various parts of our Devices, and information regarding the online or mobile service provider. This information is collected using technologies such as cookies, flash cookies, web beacons, and other unique identifiers (which we define under the "Cookies and Other Technologies" section of our general Privacy Policy). This information may be collected by us or by a third party. Persistent identifier information is used by Cleveland UMADAOP for the sole purpose of providing support for our internal operations, including in order to:
                     <br><br>
-					<ul class="mylist">
-						<li>Ensure that the Devices function properly</li>
-						<li>Enable us to conduct research and analysis to understand, address and improve the use and performance of the Devices</li>
-						<li>Diagnose and respond to problems</li>
-					</ul>
+					
+					- Ensure that the Devices function properly<br />
+				    - Enable us to conduct research and analysis to understand, address and improve the use and performance of the Devices<br />
+					- Diagnose and respond to problems<br />
+					
 				    <br>                   
                     We work with third parties who perform site analytics and provide services to keep your user experience on the Site free of spam. The following is a list of our third-party service providers who may collect persistent identifiers or use cookies. Some of these third parties may use this information for their own internal purposes, and not strictly as service providers for Cleveland UMADAOP. These third parties have assured us the information is not used to target advertisements on other third-party Devices or services or used to create profiles.
 					<br><br>
 				</p>
 				    <h3>2. What Information Submitted By Children Is Viewable On the Site?</h3>
+				<p id="policy2">
 					<br>
                     We strictly limit the personal information that is publicly viewable about a member who is known by us to be a child. When a child posts a creative piece, review or comment on the Devices, only the child's age is posted, along with the content of the child's posting. The child's username is not posted with this submitted content on our Devices. Although the child may create a Profile for his or her account (which includes only a username, password, birth month and year, and parent's email address), no portion of the child's Profile other than the child's age is publicly viewable.
                     <br><br>
@@ -177,7 +178,6 @@
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>

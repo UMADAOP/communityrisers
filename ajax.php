@@ -31,6 +31,37 @@ include_once 'db.php';
 $insert = $db->query("INSERT file (message,file_name) VALUES ('".$message."','".$path."')");
  
 //echo $insert?'ok':'err';
+
+
+
+//Display upload
+$sql = "SELECT * FROM file";
+
+		$result = mysqli_query($db,$sql) or die(mysqli_error());
+		while($row = mysqli_fetch_array($result))
+		{
+		$message = $row['message'];
+		$img = $row['file_name'];
+
+		echo "<div id=\"thumbrow\" class=\"row\">";
+		echo "<div class=\"col-md-8\">";
+		echo "<div class=\"thumbnail\">";
+		echo "<img border=\"0\" src=\"".$img."\">";
+		echo "<p>". $message . "</p>";
+		echo "</div>";
+		echo "</div>";
+		echo "</div>";
+		}
+
+
+
+
+
+
+
+
+
+
 }
 } 
 else 
@@ -49,14 +80,6 @@ if($myFile['size'] > 500000){
  
 }
 
-
-//$sql_query = "SELECT file_name, message FROM file WHERE file_name=$email_id AND password=$password";
-
-
-
 }
-
-
-
 
 ?>

@@ -166,156 +166,57 @@
 								
 			</div>  <!-- end inner div-->
         </div>
-		
-		
-		
-		
-		
-		
-		<!--Uploads- example start-->
 		<hr> 
- 
-<form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
-<div class="form-group" style="text-align:center;">
-<label for="message">Message</label>
-<input type="text" class="form-control" id="message" name="message" placeholder="Enter message" required />
-</div>
-<input id="uploadImage" type="file" accept="image/*" name="image" />
-<br>
-<input class="btn btn-success" type="submit" value="Upload">
-<!--thumbnail start-->
-<div id="thumbrow" class="row">
-  <div class="col-xs-6 col-md-3">
-    <a class="thumbnail" style="text-align:center;margin:auto;">
-      <div id="preview"></div>
-    </a>
-  </div>
-</div>
-<!--thumbnail end-->
-</form>
+		<!--Posts -->
+		<form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
+			<div class="form-group" style="text-align:center;">
+			<label for="message">Message</label>
+				<input type="text" class="form-control" id="message" name="message" placeholder="Enter message" required />
+			</div>
+			<input id="uploadImage" type="file" accept="image/*" name="image" />
+			<br>
+			<input class="btn btn-success" type="submit" value="Upload">
+		</form>
 
-<div id="err"></div>
-<hr>
-		<!--Uploads - example end-->
-		
-
+		<div id="err"></div>
+		<hr>
 		
 		
 		
-<?php
-//$dbHost = '204.48.17.31:3306';
- 
-//$dbUsername = 'wvfdavanhx';
- 
-//$dbPassword = 'A8vBpYb4fY';
- 
-//$dbName = 'wvfdavanhx';
- 
-//Create connection and select DB
- 
-//$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
- 
-//if($db->connect_error){
- 
-//   die("Unable to connect database: " . $db->connect_error);
- 
-//}
+	<?php
 
-include 'db.php';
+		include 'db.php';
 
-$sql = "SELECT * FROM file";
-//$result = $db->query($sql);
-$result = mysqli_query($db,$sql) or die(mysqli_error());
-while($row = mysqli_fetch_array($result))
-{
-$message = $row['message'];
-$img = $row['file_name'];
+		$sql = "SELECT * FROM file";
 
-echo "<img border=\"0\" src=\"".$img."\" width=\"102\"  height=\"91\">";
-echo "<p>". $message . "</p>";
-}
+		$result = mysqli_query($db,$sql) or die(mysqli_error());
+		while($row = mysqli_fetch_array($result))
+		{
+		$message = $row['message'];
+		$img = $row['file_name'];
+
+		echo "<div id=\"thumbrow\" class=\"row\">";
+		echo "<div class=\"col-md-8\">";
+		echo "<div class=\"thumbnail\">";
+		echo "<img border=\"0\" src=\"".$img."\">";
+		echo "<p>". $message . "</p>";
+		echo "</div>";
+		echo "</div>";
+		echo "</div>";
+		}
 
 
+		//mysqli_close($db);
+		//$db->close();
 
-
-
-//while ($result->num_rows > 0)
-//{
-//echo "<img border=\"0\" src=\"images/".$row['file_name']."\" width=\"102\"  height=\"91\">";
-
-//echo "The messages";
-//echo "<p>". $row["message"] . "</p>";
-
-//}
-//echo "<div class=\"row\">
-	//	<div class=\"col-md-12\">
-		//	<div class=\"thumbnail\">"
-
-//while($row = $result->fetch_assoc())
-//{
-//echo "<img src=\"".$row['file_name']."\" alt=\"Image\">
-	//			<div class=\"caption\">
-		//			<p>".$row['message']."</p>
-			//	</div>"
-//}
-
-//echo 	   "</div>
-//		 </div>
-//	  </div>"  
-//}else {
-	//"0 results found";
-//}
-//mysqli_close($db);
-//$db->close();
-//header("Location: http://ccnrisers.org/childrensday.php");
-?>		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-        <!-- Uploads- original 
-        <div class="container">
-            <form enctype="multipart/form-data" id="upload_form" method="POST" >
-                <div class="form-group">
-                    <input type="file" name="file" >
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <input type="text" class="form-control" id="message" name="message" placeholder="Enter message" />
-                </div>
-                <input class="btn btn-success" type="submit" value="Upload" onclick="add_file();">
-                <div class="show"></div>
-                <hr>
-            </form>
-            <div class="show-images"></div>
-        </div> < close container -->
-		
-		
-		
-			
-		
-		
+	?>		
 		
 		
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
                 <section>
-                    <!--<h2>Get in touch</h2>-->
+                    <h2>Have a question? Send us a message:</h2><br /><br />
                     <form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />

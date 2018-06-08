@@ -122,7 +122,6 @@
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>
