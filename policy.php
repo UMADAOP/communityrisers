@@ -43,16 +43,36 @@
             <div class="inner">
                 <h1 class="lead" id="policyheading">Cleveland UMADAOP Online CHILDREN'S PRIVACY POLICY</h1>
                 <br />
-                <p class="policy">
-                    The Cleveland Urban Minority Alcoholism Drug Abuse Outreach Project (UMADAOP), including for example Drug-Free Friend (DFF) and Distinguished Gentlemen of Spoken Word (DGSW), is committed to protecting the privacy of children who use our website Devices and applications (after to be referred to as Devices). The Devices that we operate provide a forum for all family members, including children, to express their commitments, opinions, and concerns about the promotion of activities that enhance the prevention of behavioral health problems. While we encourage children to participate appropriately on our Devices, their privacy is extremely important to us. The UMADAOP Children's Privacy Policy explains our information practices in connection with information provided by children under the age of 13 ("child" or "children") on Devices that link to this Children's Privacy Policy. The Devices are controlled and operated by us from the United States and are not intended to subject us to the laws or jurisdiction of any state, country or territory other than that of the United States. We support the Children's Online Privacy Protection Act (COPPA), and our goal is to minimize the information gathered from and disseminated about children under 13 while still allowing them to actively participate and fully trust the information, education, and activities that we offer.
+                <p id="policy1">
+                    The Cleveland Urban Minority Alcoholism Drug Abuse Outreach Project (UMADAOP),
+					including for example Drug-Free Friend (DFF) and Distinguished Gentlemen 
+					of Spoken Word (DGSW), is committed to protecting the privacy of children 
+					who use our website Devices and applications (after to be referred to as 
+					Devices). The Devices that we operate provide a forum for all family members, 
+					including children, to express their commitments, opinions, and concerns about 
+					the promotion of activities that enhance the prevention of behavioral health 
+					problems. While we encourage children to participate appropriately on our
+					Devices, their privacy is extremely important to us. The UMADAOP Children's 
+					Privacy Policy explains our information practices in connection with 
+					information provided by children under the age of 13 ("child" or "children")
+					on Devices that link to this Children's Privacy Policy. The Devices are 
+					controlled and operated by us from the United States and are not intended 
+					to subject us to the laws or jurisdiction of any state, country or territory
+					other than that of the United States. We support the Children's Online Privacy
+					Protection Act (COPPA), and our goal is to minimize the information gathered 
+					from and disseminated about children under 13 while still allowing them to 
+					actively participate and fully trust the information, education, and 
+					activities that we offer.
+				</p>
                     <br><br>
+				<p id="policy2">	
 					1.  How We Collect and Use Information from Children
 					<br>
                     Children can explore the Devices, and can view and print reviews, comments, ratings and submit creative content without providing any personal information other than the automatic collection of device "persistent identifiers," as discussed in greater detail below. Our Devices only collect limited personal information about a child if the child registers to become a member or submits a question or request to us. If the information collected from a child does not identify or allow contact with him or her or his or her device (including, for example, aggregated information), we may use and disclose it for any purpose, to the extent permitted by applicable law.
                     <br>
 					Registration Process. If a child wants to register to become a member of our Devices, we require the child to submit the following information:
 					<br><br>
-					<ul >
+					<ul class="mylist">
 						<li>Username (the child is advised not to use his or her real name)</li>
 						<li>Password</li>
 						<li>Birth month and year</li>
@@ -62,7 +82,7 @@
 					<br>
                     We may use information collected from children during the registration process in the following manner:
 					<br><br>
-					<ul>
+					<ul class="mylist">
 						<li>To create and maintain the child's account</li>
 						<li>To determine the child's current age and post it next to any reviews or comments posted by the child. We do not post the child's username or any personal information</li>
 					</ul>
@@ -73,7 +93,7 @@
 					<br>
                     <em>Persistent Identifiers.</em> When children interact with the Devices, certain technical information may automatically be collected, both to make our Devices more interesting and useful and for various internal purposes related to our business. Examples of information that is automatically collected include: the type of computer operating system, the device's IP address or mobile device identifier, the web browser, the frequency with which the child visits various parts of our Devices, and information regarding the online or mobile service provider. This information is collected using technologies such as cookies, flash cookies, web beacons, and other unique identifiers (which we define under the "Cookies and Other Technologies" section of our general Privacy Policy). This information may be collected by us or by a third party. Persistent identifier information is used by Cleveland UMADAOP for the sole purpose of providing support for our internal operations, including in order to:
                     <br><br>
-					<ul>
+					<ul class="mylist">
 						<li>Ensure that the Devices function properly</li>
 						<li>Enable us to conduct research and analysis to understand, address and improve the use and performance of the Devices</li>
 						<li>Diagnose and respond to problems</li>
@@ -81,6 +101,7 @@
 				    <br>                   
                     We work with third parties who perform site analytics and provide services to keep your user experience on the Site free of spam. The following is a list of our third-party service providers who may collect persistent identifiers or use cookies. Some of these third parties may use this information for their own internal purposes, and not strictly as service providers for Cleveland UMADAOP. These third parties have assured us the information is not used to target advertisements on other third-party Devices or services or used to create profiles.
 					<br><br>
+				</p>
 				    <h3>2. What Information Submitted By Children Is Viewable On the Site?</h3>
 					<br>
                     We strictly limit the personal information that is publicly viewable about a member who is known by us to be a child. When a child posts a creative piece, review or comment on the Devices, only the child's age is posted, along with the content of the child's posting. The child's username is not posted with this submitted content on our Devices. Although the child may create a Profile for his or her account (which includes only a username, password, birth month and year, and parent's email address), no portion of the child's Profile other than the child's age is publicly viewable.
@@ -113,7 +134,7 @@
         <footer id="footer">
             <div class="inner">
                 <section>
-                    <h2>Have a question? Send us a message:</h2><br />
+                    <h2>Have a question? Send us a message:</h2><br /><br />
                  <form method="post" action="https://formspree.io/cleumadaop@aol.com">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
@@ -131,7 +152,7 @@
                     </form>
                 </section>
                 <section>
-                    <h2>Contact</h2> <br />
+                    <h2>Contact</h2> <br /> <br />
                     <ul class="icons">
                         <!--<li><a href="#" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>

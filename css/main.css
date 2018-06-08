@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 28px;
 }
 
-.first-heading, .lead, #quote2, #childrenshistory, #termsheading, #terms, #policyheading, .policy, #about, #aboutusheading {
+.first-heading, .lead, #quote2, #childrenshistory, #termsheading, #terms, #policyheading, #policy1, #policy2, #policy3, #about, #aboutusheading {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -32,7 +32,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
-.policy, #terms, #childrenshistory, #about {
+#policy1, #policy2, #policy3, #terms, #childrenshistory, #about {
 	font-size: 18px;
 }
 

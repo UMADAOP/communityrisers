@@ -47,10 +47,10 @@
                   The Community Children’s Network (CCN) exist to affirm the
 children in the community. CCN is an effort to celebrate
 children because they are worth celebrating. Yes, it is just that
-simple.
+simple. <br><br>
 The fundamental belief of the Community Children’s Network is
 that when we value our children, we are securing our hopes
-and dreams and proclaiming the worth of our legacy.
+and dreams and proclaiming the worth of our legacy. <br><br>
 The Community Children’s Network is made up of a diverse
 group of people and entities that provide a vast menu of
 supports that demonstrate their willingness and commitment
@@ -61,11 +61,10 @@ binding them to our ancestral ethos and strengthen them for
 forthcoming future. Risers are the wind beneath our children’s
 wings preparing them so that they can soar into a world that
 awaits their brilliance, their beauty and their intelligence
-possessing an abundance of confidence and fortitude.
+possessing an abundance of confidence and fortitude. <br><br>
 The Community Children’s Network is a digital platform that
 allows people in the community to learn about the brilliance of
 our children; to share about the accomplishments of our
-
 children; to send messages of support, appreciation, and love
 to our children.
                 </p>
