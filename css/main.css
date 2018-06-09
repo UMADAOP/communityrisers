@@ -125,7 +125,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-color: lightyellow;
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: right 15px bottom 20px;
+            background-position: center;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 			
         }
@@ -140,7 +140,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-color: lightyellow;
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: right 1px top ;
+            background-position: center ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 			
         }
@@ -171,7 +171,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-color: lightyellow;
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: right 1px top ;
+            background-position: center;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 		   
 		}
