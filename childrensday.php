@@ -90,7 +90,7 @@
 
 		echo "<div class=\"container\" style=\"margin:0 auto;\">";
 		echo "<div id=\"thumbrow\" class=\"row\">";
-		echo "<div class=\"col-sm-12\">";
+		echo "<div class=\"col-sm-9\">";
 		echo "<div class=\"thumbnail\">";
 		echo "<img border=\"0\" src=\"".$img."\" width=\"250\"  height=\"250\">";
 		echo "<p style=\"font-size:30px; word-wrap: break-word;\"\>". $message . "</p>";
