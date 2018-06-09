@@ -73,7 +73,7 @@
 
 		<div id="err"></div>
 		<hr>
-		
+		<br/><br/>
 		
 		
 	<?php
