@@ -93,7 +93,7 @@
 		echo "<div class=\"col-sm-6 col-md-4\">";
 		echo "<div class=\"thumbnail\">";
 		echo "<img border=\"0\" src=\"".$img."\" width=\"250\"  height=\"250\">";
-		echo "<p style=\"font-size:15px; word-wrap: break-word;\"\>". $message . "</p>";
+		echo "<p style=\"font-size:30px; word-wrap: break-word;\"\>". $message . "</p>";
 		echo "</div>";
 		echo "</div>";
 		echo "</div>";
