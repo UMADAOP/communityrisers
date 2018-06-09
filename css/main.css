@@ -54,7 +54,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
         input[type="file"] {
             border: 1px solid #222;
-            padding: 20px 0px;
+            padding: 0px 0px;
             -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
@@ -110,7 +110,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: right 15px bottom 20px;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-			-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+			
         }
 
         #star2 {
@@ -125,7 +125,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: right 1px top ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-			-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+			
         }
 		
 		#star3 {
@@ -140,7 +140,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: right 1px bottom ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-			-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+			
 		}
 		
 	    #star4 {
@@ -155,7 +155,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: right 1px top ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-		    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		   
 		}
 		
 		#banner {
@@ -165,8 +165,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             width: 100%;
             text-align: center;
 			font-family: 'Shrikhand', cursive;
-			font-size: 18px;
+			font-size: 20px;
 			color: white;
+		}
+		
+		.thumbnail {
+			 border-color: #85C226 #F7C200 #4493A0 #DF127B ; 
 		}
 
 
