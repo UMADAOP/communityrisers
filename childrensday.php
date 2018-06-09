@@ -64,7 +64,7 @@
 		<form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
 			<div class="form-group" style="text-align:center;">
 			<label for="message">Message</label>
-				<input type="text" class="form-control" id="message" name="message" placeholder="Enter message" maxlength="255" required />
+				<input type="text" class="form-control" id="message" name="message" placeholder="Enter Message - 255 Character Limit" maxlength="255" required />
 			</div>
 			<input id="uploadImage" type="file" accept="image/*" name="image" />
 			<br>
@@ -88,12 +88,12 @@
 		$message = $row['message'];
 		$img = $row['file_name'];
 
-		echo "<div class=\"container\">";
+		echo "<div class=\"container\" style=\"margin:0 auto;\">";
 		echo "<div id=\"thumbrow\" class=\"row\">";
 		echo "<div class=\"col-sm-6 col-md-4\">";
 		echo "<div class=\"thumbnail\">";
-		echo "<img border=\"0\" src=\"".$img."\" width=\"170\"  height=\"130\">";
-		echo "<p>". $message . "</p>";
+		echo "<img border=\"0\" src=\"".$img."\" width=\"250\"  height=\"250\">";
+		echo "<p style=\"font-size:15px; word-wrap: break-word;\"\>". $message . "</p>";
 		echo "</div>";
 		echo "</div>";
 		echo "</div>";
