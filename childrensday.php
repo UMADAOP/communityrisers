@@ -44,7 +44,7 @@
                     <div id="star2"></div>
 					<div id="star3"></div>
 					<div id="star4"></div>
-					<div id="banner">Shining Stars</div>
+					<div id="banner" style="color:white";>Shining Stars</div>
                 </div>
 				<br />
 				<dl id="childrenshistory">

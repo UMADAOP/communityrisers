@@ -96,7 +96,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 			
 			
 			
-			#banner, #star1, #star2, #star3, #star4 {
+			.jar {
 				width: 50%;
 				height: 50%;
 			}
@@ -175,7 +175,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             text-align: center;
 			font-family: 'Shrikhand', cursive;
 			font-size: 55px;
-			color: white;
 		}
 		
 		.thumbnail {
