@@ -1,6 +1,8 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 @import url('https://fonts.googleapis.com/css?family=Raleway:400i,500');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -40,6 +42,132 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-align: center;
 }
 
+      .container {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: auto;
+        }
+
+        .form-group {
+            padding: 10px 0px;
+        }
+
+        input[type="file"] {
+            border: 1px solid #222;
+            padding: 20px 0px;
+            -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .error {
+            width: 300px;
+            display: block;
+            padding: 10px 10px;
+            background: red;
+            color: #fff;
+            text-align: center;
+        }
+
+        .img-res {
+            width: 25%;
+            height: 200px;
+            -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            margin: 10px 10px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+        }
+
+        #particles-js {
+            background: #3C67C1;
+            height: 100%;
+            width: 100%;
+        }
+		
+		/* Extra Small Devices, Phones */ 
+		@media (min-width : 320px) and (max-width : 768px) {
+  
+			#particles-js, #star1, #star2, #star3, #star4 {
+				width: 50%;
+			}
+
+		}
+
+        .jar {
+            position: relative;
+        }
+
+        #star1 {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star1.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 15px bottom 20px;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+			-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        #star2 {
+            position: absolute;
+            top: 10px;
+            right: 16px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star2.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 1px top ;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+			-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+		
+		#star3 {
+			position: absolute;
+            bottom: 30px;
+            left: 16px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star3.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 1px bottom ;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+			-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		}
+		
+	    #star4 {
+			position: absolute;
+            bottom: 8px;
+            right: 16px;
+            width: 200px;
+            height: 200px;
+            background-image: url('app_images/star4.jpg');
+            background-color: lightyellow;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: right 1px top ;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+		}
+		
+		#banner {
+			position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+			font-family: 'Shrikhand', cursive;
+			font-size: 18px;
+			color: white;
+		}
 
 
 /* acc */

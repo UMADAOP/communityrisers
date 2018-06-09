@@ -2,112 +2,6 @@
 <html>
 <head>
     <title>Children's Day 2018</title>
-    <style>
-
-        .container {
-            padding-left: 20px;
-            padding-right: 20px;
-            margin: auto;
-        }
-
-        .form-group {
-            padding: 10px 0px;
-        }
-
-        input[type="file"] {
-            border: 1px solid #222;
-            padding: 20px 0px;
-            -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        }
-
-        .error {
-            width: 300px;
-            display: block;
-            padding: 10px 10px;
-            background: red;
-            color: #fff;
-            text-align: center;
-        }
-
-        .img-res {
-            width: 25%;
-            height: 200px;
-            -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
-            margin: 10px 10px;
-            -webkit-border-radius: 6px;
-            -moz-border-radius: 6px;
-            border-radius: 6px;
-        }
-
-        #particles-js {
-            background: #3C67C1;
-            height: 100%;
-            width: 100%;
-        }
-
-        .jar {
-            position: relative;
-        }
-
-        #star1 {
-            position: absolute;
-            top: 30px;
-            left: 50px;
-            width: 200px;
-            height: 200px;
-            background-image: url('app_images/star1.jpg');
-            background-color: lightyellow;
-            background-size: 90%;
-            background-repeat: no-repeat;
-            background-position: right 15px bottom 20px;
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-        }
-
-        #star2 {
-            position: absolute;
-            top: 10px;
-            right: 16px;
-            width: 200px;
-            height: 200px;
-            background-image: url('app_images/star2.jpg');
-            background-color: lightyellow;
-            background-size: 90%;
-            background-repeat: no-repeat;
-            background-position: right 1px top ;
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-        }
-		
-		#star3 {
-			position: absolute;
-            bottom: 30px;
-            left: 16px;
-            width: 200px;
-            height: 200px;
-            background-image: url('app_images/star3.jpg');
-            background-color: lightyellow;
-            background-size: 90%;
-            background-repeat: no-repeat;
-            background-position: right 1px bottom ;
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-		}
-		
-	    #star4 {
-			position: absolute;
-            bottom: 8px;
-            right: 16px;
-            width: 200px;
-            height: 200px;
-            background-image: url('app_images/star4.jpg');
-            background-color: lightyellow;
-            background-size: 90%;
-            background-repeat: no-repeat;
-            background-position: right 1px top ;
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-		}
-    </style>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -150,6 +44,7 @@
                     <div id="star2"></div>
 					<div id="star3"></div>
 					<div id="star4"></div>
+					<div id="banner">Shining Stars</div>
                 </div>
 				<br />
 				<dl id="childrenshistory">
@@ -163,11 +58,9 @@
 				</dl>
 				<h3 class="lead" id="posts" style="background-color:rgba(0,128,128,0.6);">Posts</h3>
                 <p class="lead" id="intro">Join in the Children’s Day celebration and send your daughter, son, grandchildren, niece, nephew, cousin or just a great kid some LOVE. </p>
-								
-			</div>  <!-- end inner div-->
-        </div>
-		<hr> 
-		<!--Posts -->
+				<br /> <br />
+
+						<!--Posts -->
 		<form id="form" action="ajaxupload.php" method="post" enctype="multipart/form-data">
 			<div class="form-group" style="text-align:center;">
 			<label for="message">Message</label>
@@ -198,7 +91,7 @@
 		echo "<div id=\"thumbrow\" class=\"row\">";
 		echo "<div class=\"col-sm-6 col-md-4\">";
 		echo "<div class=\"thumbnail\">";
-		echo "<img border=\"0\" src=\"".$img."\">";
+		echo "<img border=\"0\" src=\"".$img."\" width=\"170\"  height=\"130\">";
 		echo "<p>". $message . "</p>";
 		echo "</div>";
 		echo "</div>";
@@ -209,7 +102,12 @@
 		//mysqli_close($db);
 		//$db->close();
 
-	?>		
+	?>	
+					
+			</div>  <!-- end inner div-->
+        </div>
+		<hr> 
+	
 		
 		
         <!-- Footer -->
