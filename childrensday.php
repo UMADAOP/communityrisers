@@ -66,7 +66,7 @@
 			<label for="message">Message</label>
 				<input type="text" class="form-control" id="message" name="message" placeholder="Enter Message - 255 Character Limit" maxlength="255" required />
 			</div>
-			<input id="uploadImage" type="file" accept="image/*" name="image" />
+			<input id="uploadImage" type="file" accept="image/*" name="image" style="text-align:center;" />
 			<br>
 			<input class="btn btn-success" type="submit" value="Upload">
 		</form>
@@ -74,8 +74,8 @@
 		<div id="err"></div>
 		<hr>
 		<br/><br/>
-		
-		
+
+
 	<?php
 
 		include 'db.php';
@@ -88,8 +88,8 @@
 		$message = $row['message'];
 		$img = $row['file_name'];
 
-		echo "<div class=\"container\" style=\"margin:0 auto;\">";
-		echo "<div id=\"thumbrow\" class=\"row\">";
+		echo "<div class=\"container\" style=\"margin:0 auto;text-align: center\">";
+		echo "<div id=\"thumbrow\" class=\"row\" style\"display: inline-block\">";
 		echo "<div class=\"col-sm-9\">";
 		echo "<div class=\"thumbnail\">";
 		echo "<img border=\"0\" src=\"".$img."\" width=\"250\"  height=\"250\">";
@@ -104,14 +104,14 @@
 		//mysqli_close($db);
 		//$db->close();
 
-	?>	
-					
+	?>
+
 			</div>  <!-- end inner div-->
         </div>
-		<hr> 
-	
-		
-		
+		<hr>
+
+
+
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
@@ -156,8 +156,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
-    <script type="text/javascript" src="js/particles.js"></script>
+    <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

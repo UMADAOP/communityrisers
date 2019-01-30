@@ -109,7 +109,7 @@
                     <ul class="icons">
                         <!--<li><a href="https://www.youtube.com/channel/UCaQ7ijDCIgWKDjSvAzZ1A4A" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
                         <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
-                        <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+                        <li><div class="popup" onclick="myFunction()"><a href="#" class="icon style2 fa-envelope-o"><span class="label popuptext" id="myPopup">Email: cleumadaop@aol.com</span></a></div></li>
                     </ul>
                 </section>
                 <ul class="copyright">
@@ -126,9 +126,12 @@
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/util.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/risers.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>
