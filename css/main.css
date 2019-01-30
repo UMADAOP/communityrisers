@@ -88,21 +88,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             height: 100%;
             width: 100%;
         }
-		
-		/* Extra Small Devices, Phones */ 
+
+		/* Extra Small Devices, Phones */
 		@media (min-width : 320px) and (max-width : 992px) {
-  
+
 			#particles-js {
 				width: 100%;
 			}
-			
-			
-			
+
+
+
 			#star1, #star2, #star3, #star4 {
             width: 30px;
             height: 30px;
 			}
-			
+
 			#banner {
 				width: 50%;
 				height: 50%;
@@ -127,7 +127,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: center;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-			
+
         }
 
         #star2 {
@@ -142,9 +142,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: center ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-			
+
         }
-		
+
 		#star3 {
 			position: absolute;
             bottom: 30px;
@@ -158,9 +158,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
            /* background-position: right 1px bottom ; */
 		   background-position: center ;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-			
+
 		}
-		
+
 	    #star4 {
 			position: absolute;
             bottom: 8px;
@@ -173,9 +173,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             background-repeat: no-repeat;
             background-position: center;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-		   
+
 		}
-		
+
 		#banner {
 			position: absolute;
             left: 0;
@@ -185,15 +185,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 			font-family: 'Shrikhand', cursive;
 			font-size: 55px;
 		}
-		
+
 		.thumbnail {
 			 /* border-color: #85C226 #F7C200 #4493A0 #DF127B; */
 			 border-color: #4493A0 #4493A0 #F7C200 #4493A0;
-             border-width: 15px 15px 15px 15px;			 
+             border-width: 15px 15px 15px 15px;
 		}
 
 
-/* acc */
+/*** acc  -  start  ***/
 .popup {
     position: relative;
     display: inline-block;
@@ -204,42 +204,40 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     user-select: none;
 }
 
-    /* acc */
-    .popup .label {
-        visibility: hidden;
-        width: 160px;
-        background-color: #555;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 8px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        margin-left: -80px;
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
     }
 
-        /* acc */
-        .popup .label::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
         }
 
-    /* acc */
-    .popup .show {
-        visibility: visible;
-        -webkit-animation: fadeIn 1s;
-        animation: fadeIn 1s;
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
     }
 
-/* acc */
+
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
@@ -250,7 +248,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 }
 
-/* acc */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -260,7 +258,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         opacity: 1;
     }
 }
-
+/*** acc  -  end  ***/
 
 
 

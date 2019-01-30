@@ -4,6 +4,7 @@ Design, Build, Deploy, Teach.
 
 
 Credits:
+  AJ - aj@lkn.io | @ajlkn
   Font Awesome
   Google Font
   jQuery
@@ -16,7 +17,9 @@ Credits:
   PHP
   HTML
   CSS
-  HTML5Up!
+  HTML5Up! (Multiverse, Phantom by HTML5 UP (html5up.net | @ajlkn)
+  Poptrox (github.com/ajlkn/jquery.poptrox)
+  Responsive Tools (github.com/ajlkn/responsive-tools)
   Respond.js
   Illustrations by: www.vecteezy.com
   Hosted on Cloudways

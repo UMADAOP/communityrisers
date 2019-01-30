@@ -2,13 +2,13 @@
                    Popup text for icons
 *******************************************************/
 
-/*
+
  function popupFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
-    console.log("it popped!");
+    //console.log("it popped!");
 }
-*/
+
 
 /*******************************************************
                    Uploads
@@ -40,14 +40,14 @@ $(document).ready(function (e) {
     {
      // view uploaded file.
      $("#preview").html(data).fadeIn();
-     $("#form")[0].reset(); 
+     $("#form")[0].reset();
 	// show_images();
     }
       },
-     error: function(e) 
+     error: function(e)
       {
     $("#err").html(e).fadeIn();
-      }          
+      }
     });
  }));
 });
@@ -67,7 +67,7 @@ $(document).ready(function (e) {
  function add_file() {
     $.ajax({
         type: 'POST',
-        url: 'ajax.php?my_form=ajax_form', 
+        url: 'ajax.php?my_form=ajax_form',
         data: new FormData($('#upload_form')[0]),
         processData: false,
         contentType: false,
@@ -88,7 +88,7 @@ $(document).ready(function (e) {
         }
     })
 }
- show_images(); 
+ show_images();
  */
 
 
@@ -98,7 +98,7 @@ $(document).ready(function (e) {
 *******************************************************/
 
 particlesJS('particles-js',
-  
+
     {
         "particles": {
             "number": {

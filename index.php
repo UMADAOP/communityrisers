@@ -61,10 +61,10 @@
                         <span class="image">
                             <img src="app_images/pic02.jpg" alt="" />
                         </span>
-                        <a href="index.php">
+                        <a href="risers.php">
                             <h2>3.0 Club</h2>
                             <div class="content">
-                                <p>Coming Soon</p>
+                                <p>Risers 2019</p>
                             </div>
                         </a>
                     </article>
