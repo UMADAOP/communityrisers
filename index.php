@@ -108,8 +108,8 @@
                     <h2>Contact</h2> <br /> <br />
                     <ul class="icons">
                         <!--<li><a href="https://www.youtube.com/channel/UCaQ7ijDCIgWKDjSvAzZ1A4A" class="icon style2 fab fa-youtube"><span class="label">YouTube</span></a></li>-->
-                        <li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
-                        <li><div class="popup" onclick="myFunction()"><a href="#" class="icon style2 fa-envelope-o"><span class="label popuptext" id="myPopup">Email: cleumadaop@aol.com</span></a></div></li>
+                        <li><a class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+                        <li><div class="popup" onclick="myFunction()"><a class="icon style2 fa-envelope-o"><span class="label popuptext" id="myPopup">Email: cleumadaop@aol.com</span></a></div></li>
                     </ul>
                 </section>
                 <ul class="copyright">
