@@ -18,13 +18,13 @@
                     <span class="symbol"><img src="app_images/logo.jpg" alt="" /></span><span class="title">Community Children's Network</span>
                 </a>
 
-                <!-- Nav -->
+                <!-- Nav
                 <nav>
                     <ul>
                         <li><a href="#menu">Menu</a></li>
                     </ul>
                 </nav>
-
+                -->
             </div>
         </header>
 
@@ -117,7 +117,7 @@
                     <li>Designed with Love: <a href="http://alexischandler.com">A-CHAN</a></li>
                     <li><a href="policy.php">Privacy Policy</a></li>
                     <li><a href="terms.php">Terms & Conditions</a></li>
-					<li><a href="about.php">About Us</a></li>
+					          <li><a href="about.php">About Us</a></li>
                 </ul>
             </div>
         </footer>
