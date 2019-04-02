@@ -101,11 +101,11 @@
 							<h2>Zhaniah_Ervin</h2>
 							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
 						</article>
-						<article class="thumb">
+						<!--<article class="thumb">
 							<a href="app_images/risers/12.jpg" class="image"><img src="app_images/risers/12.jpg" alt="" /></a>
 							<h2>Vehicula id nulla dignissim</h2>
 							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-						</article>
+						</article>-->
 					</div>
 
 					<hr>
