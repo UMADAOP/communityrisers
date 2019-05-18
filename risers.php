@@ -49,57 +49,57 @@
 						<article class="thumb">
 							<a href="app_images/risers/Ajia_Brasha.jpg" class="image"><img src="app_images/risers/Ajia_Brasha.jpg" alt="" /></a>
 							<h2>Ajia Brasha</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Anthanie_Stewart.jpg" class="image"><img src="app_images/risers/Anthanie_Stewart.jpg" alt="" /></a>
 							<h2>Anthanie Stewart</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Avarielle_Sturdivant.jpg" class="image"><img src="app_images/risers/Avarielle_Sturdivant.jpg" alt="" /></a>
 							<h2>Avarielle Sturdivant</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Bryanna_Sturdivant.jpg" class="image"><img src="app_images/risers/Bryanna_Sturdivant.jpg" alt="" /></a>
 							<h2>Bryanna Sturdivant</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Chace_Rufus.jpg" class="image"><img src="app_images/risers/Chace_Rufus.jpg" alt="" /></a>
 							<h2>Chace Rufus</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Dontez_Potter.jpg" class="image"><img src="app_images/risers/Dontez_Potter.jpg" alt="" /></a>
 							<h2>Dontez Potter</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Grace_Harris.jpg" class="image"><img src="app_images/risers/Grace_Harris.jpg" alt="" /></a>
 							<h2>Grace Harris</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="images/risers/Janae_Jacobs.jpg" class="image"><img src="app_images/risers/Janae_Jacobs.jpg" alt="" /></a>
 							<h2>Janae Jacobs</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Madison_Reid.jpg" class="image"><img src="app_images/risers/Madison_Reid.jpg" alt="" /></a>
 							<h2>Madison Reid</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Semaj_Haywood.jpg" class="image"><img src="app_images/risers/Semaj_Haywood.jpg" alt="" /></a>
 							<h2>Semaj Haywood</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<article class="thumb">
 							<a href="app_images/risers/Zhaniah_Ervin.jpg" class="image"><img src="app_images/risers/Zhaniah_Ervin.jpg" alt="" /></a>
 							<h2>Zhaniah_Ervin</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<!--<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>-->
 						</article>
 						<!--<article class="thumb">
 							<a href="app_images/risers/12.jpg" class="image"><img src="app_images/risers/12.jpg" alt="" /></a>
